@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="YBS / İİSBF mezunu için 2026 KPSS puanına göre başvurulabilecek kamu ilanları.">
+<title>Kadro Pusulası</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: resmi sonuç belgesi gibi bir puan şeridi + sekmeli çalışma alanı; ilanlar son tarihe göre dizilmiş "dosya kartları", kalan gün bir mühür. */
+:root{
+  --paper:#f5f6f8; --surface:#ffffff; --ink:#17202e; --muted:#586173; --line:#dde2ea;
+  --seal:#b3261e; --seal-soft:#f8e5e3; --seal-ink:#ffffff;
+  --ok:#1d7548; --ok-soft:#e1f1e8; --warn:#8f5c00; --warn-soft:#faeed6; --no:#6a7180; --no-soft:#eceef2;
+  --f-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#10141b; --surface:#171d27; --ink:#e6e9ef; --muted:#9aa3b3; --line:#2a3241;
+  --seal:#e35a4e; --seal-soft:#3b1e1c; --seal-ink:#1a0c0b;
+  --ok:#52c48d; --ok-soft:#142e20; --warn:#e3a646; --warn-soft:#32260f; --no:#9aa3b3; --no-soft:#222a37;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#10141b; --surface:#171d27; --ink:#e6e9ef; --muted:#9aa3b3; --line:#2a3241;
+  --seal:#e35a4e; --seal-soft:#3b1e1c; --seal-ink:#1a0c0b;
+  --ok:#52c48d; --ok-soft:#142e20; --warn:#e3a646; --warn-soft:#32260f; --no:#9aa3b3; --no-soft:#222a37;
+  color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+.wrap{max-width:1000px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.15}
+a{color:var(--seal)}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.muted{color:var(--muted)}
+
+/* header */
+header.top{background:var(--surface);border-bottom:1px solid var(--line)}
+header.top .wrap{padding-block:20px 0;display:grid;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand svg{flex:none}
+.brand h1{font-size:clamp(24px,4vw,32px);font-weight:800;letter-spacing:-.01em}
+.brand .sub{color:var(--muted);font-size:15px}
+.scorebar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.scorebar>div{padding:10px 14px;border-right:1px solid var(--line);min-width:0}
+.scorebar>div:last-child{border-right:0}
+.scorebar .k{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.06em}
+.scorebar .v{font-family:var(--f-mono);font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
+.scorebar .s{font-size:12.5px;color:var(--muted)}
+.scorebar .valid .v{font-family:var(--f-display);font-size:17px;font-weight:700}
+.scorebar .p3 .v{color:var(--seal)}
+.scanline{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:14px;color:var(--muted);align-items:center}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);display:inline-block;margin-right:6px}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;margin:0 -4px}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs a{padding:10px 14px;text-decoration:none;color:var(--muted);font-weight:700;border-bottom:3px solid transparent;white-space:nowrap;font-size:15px}
+nav.tabs a[aria-current="page"]{color:var(--ink);border-color:var(--seal)}
+nav.tabs .cnt{font-family:var(--f-mono);font-size:12px;background:var(--seal);color:var(--seal-ink);border-radius:9px;padding:1px 6px;margin-left:6px}
+
+main .wrap{padding-block:24px 64px;display:grid;gap:24px}
+section[data-view]{display:grid;gap:20px}
+.lead{max-width:68ch;color:var(--muted);margin:0}
+.notice{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:12px 14px;font-size:14.5px}
+.notice.warn{border-color:transparent;background:var(--warn-soft);color:var(--ink)}
+
+/* toolbar */
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+.seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface);max-width:100%}
+.seg button{border:0;background:none;padding:7px 14px;font:inherit;font-weight:600;font-size:14px;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 14px;border-radius:8px;font:inherit;font-weight:600;font-size:14px;cursor:pointer}
+.btn:hover{border-color:var(--muted)}
+.btn.primary{background:var(--seal);border-color:var(--seal);color:var(--seal-ink)}
+.btn.small{padding:4px 10px;font-size:13px}
+
+/* ilan list */
+.list{display:grid;gap:12px}
+.ilan{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);display:grid;grid-template-columns:76px minmax(0,1fr);overflow:hidden}
+.ilan.st-uygun{border-left:4px solid var(--ok)}
+.ilan.st-sartli{border-left:4px solid var(--warn)}
+.ilan.st-uygun-degil{border-left:4px solid var(--no)}
+.stamp{display:grid;place-items:start center;padding:16px 6px;border-right:1px dashed var(--line)}
+.stamp .ring{width:58px;height:58px;border-radius:50%;border:2px solid var(--seal);color:var(--seal);display:grid;place-items:center;text-align:center;line-height:1;transform:rotate(-8deg)}
+.stamp .ring b{font-family:var(--f-mono);font-size:19px;display:block}
+.stamp .ring span{font-size:10px;letter-spacing:.08em;font-weight:700}
+.stamp .ring.calm{border-color:var(--muted);color:var(--muted)}
+.stamp .ring.gone{border-style:dashed;border-color:var(--no);color:var(--no)}
+.ilan .body{padding:14px 16px;display:grid;gap:8px;min-width:0}
+.ilan .head{display:flex;gap:8px 12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.ilan h3{font-size:18px;font-weight:700}
+.ilan .meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:14px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:12.5px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--no-soft);color:var(--ink);white-space:nowrap}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+.chip.no{background:var(--no-soft);color:var(--no)}
+.chip.new{background:var(--seal);color:var(--seal-ink)}
+.verdict{font-size:13px;font-weight:700;padding:3px 10px;border-radius:6px;white-space:nowrap}
+.verdict.uygun{background:var(--ok-soft);color:var(--ok)}
+.verdict.sartli{background:var(--warn-soft);color:var(--warn)}
+.verdict.uygun-degil{background:var(--no-soft);color:var(--no)}
+.reasons{list-style:none;padding:0;margin:0;display:grid;gap:3px;font-size:14.5px}
+.reasons li{display:flex;gap:8px}
+.reasons li::before{content:"";flex:none;width:8px;height:8px;border-radius:2px;margin-top:8px}
+.reasons li.r-ok::before{background:var(--ok)}
+.reasons li.r-check::before{background:var(--warn)}
+.reasons li.r-fail::before{background:var(--no)}
+details.more summary{cursor:pointer;font-weight:700;font-size:14.5px;color:var(--seal);list-style:none}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary::after{content:" ↓"}
+details.more[open] summary::after{content:" ↑"}
+.detail{display:grid;gap:14px;padding-top:10px;font-size:15px}
+.detail h4{margin:0 0 4px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.detail ol,.detail ul{margin:0;padding-left:20px}
+.detail p{margin:0;max-width:70ch}
+.cols2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.track{display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:1px solid var(--line);padding-top:10px}
+select,input,textarea{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:7px 10px;max-width:100%}
+textarea{width:100%;min-height:64px;resize:vertical}
+.empty{text-align:center;padding:40px 16px;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:var(--r)}
+
+/* panels */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:12px;min-width:0}
+.panel h2{font-size:21px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12.5px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
+td.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.tscroll{overflow-x:auto}
+.form{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.form label{display:grid;gap:4px;font-size:14px;font-weight:600}
+.form small{font-weight:400;color:var(--muted)}
+.chart{width:100%;height:auto;display:block}
+.chart text{fill:var(--muted);font-family:var(--f-mono);font-size:11px}
+.chart .lbl{fill:var(--ink);font-family:var(--f-body);font-size:12.5px}
+.chart .me{fill:var(--seal);font-weight:600}
+
+/* tercih */
+.trow{display:grid;grid-template-columns:34px minmax(0,1.2fr) minmax(0,1.4fr) minmax(0,1fr) 90px auto;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.trow .n{font-family:var(--f-mono);color:var(--muted)}
+.trow .acts{display:flex;gap:4px}
+.icon{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:6px;width:30px;height:30px;cursor:pointer;font-size:14px}
+.addrow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr)) auto;gap:8px}
+.addrow input{width:100%}
+.countdown{display:flex;gap:18px;flex-wrap:wrap;align-items:baseline}
+.countdown b{font-family:var(--f-display);font-size:40px;font-weight:800;color:var(--seal);line-height:1}
+
+/* hazirlik */
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:30px minmax(0,1fr);gap:10px}
+.steps li::before{content:counter(s);font-family:var(--f-mono);font-weight:600;width:26px;height:26px;border-radius:50%;background:var(--seal-soft);color:var(--seal);display:grid;place-items:center;font-size:13px}
+.kv{display:grid;gap:10px}
+.kv>div{display:grid;grid-template-columns:minmax(0,200px) minmax(0,1fr);gap:12px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.kv>div:last-child{border-bottom:0;padding-bottom:0}
+.kv b{font-weight:700}
+
+/* sor */
+.ask{display:grid;gap:10px}
+.ask .row{display:flex;gap:8px;flex-wrap:wrap}
+.ask input{flex:1 1 260px}
+.answer{white-space:pre-wrap;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px;min-height:60px;font-size:15.5px;max-width:75ch}
+.sugg{display:flex;flex-wrap:wrap;gap:6px}
+.sugg button{border:1px dashed var(--line);background:none;color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:13.5px;cursor:pointer}
+
+.katbar{display:flex;flex-wrap:wrap;gap:6px}
+.katbar button{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:6px;padding:5px 11px;font:inherit;font-size:13.5px;font-weight:600;cursor:pointer}
+.katbar button[aria-pressed="true"]{border-color:var(--seal);color:var(--seal);background:var(--seal-soft)}
+.cvfit{margin:0;font-size:14.5px;background:var(--paper);border-radius:6px;padding:8px 10px;max-width:75ch}
+.cvfit b{color:var(--seal);margin-right:6px;font-size:12.5px;letter-spacing:.05em;text-transform:uppercase}
+.srcs{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.srcs a{display:grid;gap:2px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-family:var(--f-mono);font-size:14px;color:var(--ink)}
+.srcs a span{font-family:var(--f-body);font-size:13px;color:var(--muted)}
+.srcs a:hover{border-color:var(--seal)}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+
+@media (max-width:720px){
+  .scorebar{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .scorebar>div:nth-child(2){border-right:0}
+  .scorebar>div:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .grid2,.cols2{grid-template-columns:minmax(0,1fr)}
+  .ilan{grid-template-columns:62px minmax(0,1fr)}
+  .stamp .ring{width:48px;height:48px}
+  .stamp .ring b{font-size:16px}
+  .trow{grid-template-columns:28px minmax(0,1fr) auto;grid-template-areas:"n a x" "n b x" "n c x"}
+  .trow .n{grid-area:n}.trow .c1{grid-area:a}.trow .c2{grid-area:b}.trow .c3,.trow .c4{grid-area:c}.trow .c4{justify-self:end}.trow .acts{grid-area:x;flex-direction:column}
+  .addrow{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .kv>div{grid-template-columns:minmax(0,1fr);gap:2px}
+}
+@media (prefers-reduced-motion:no-preference){.ilan{transition:border-color .2s}}
+</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <svg width="38" height="38" viewBox="0 0 38 38" aria-hidden="true"><circle cx="19" cy="19" r="17" fill="none" stroke="var(--seal)" stroke-width="2.5"/><path d="M19 6 L23 19 L19 32 L15 19 Z" fill="var(--seal)"/><circle cx="19" cy="19" r="2.6" fill="var(--surface)"/></svg>
+      <div>
+        <h1>Kadro Pusulası</h1>
+        <div class="sub">YBS · İktisadi, İdari ve Sosyal Bilimler Fakültesi mezunu · 2026 KPSS · başvurabileceğin ilanlar tek yerde</div>
+      </div>
+    </div>
+    <div class="scorebar" aria-label="2026 KPSS lisans puanların">
+      <div><div class="k">KPSSP1</div><div class="v">78,59125</div><div class="s">sıra <span class="mono">93.454</span></div></div>
+      <div><div class="k">KPSSP2</div><div class="v">77,06142</div><div class="s">sıra <span class="mono">132.555</span></div></div>
+      <div class="p3"><div class="k">KPSSP3 · ana puanın</div><div class="v">75,34287</div><div class="s">sıra <span class="mono">195.354</span> / 1.559.934</div></div>
+      <div class="valid"><div class="k">GEÇERLİLİK</div><div class="v">2028 KPSS'ye kadar</div><div class="s" id="validLeft">yaklaşık 2 yıl</div></div>
+    </div>
+    <div class="scanline">
+      <span id="scanStatus"><span class="dot"></span>Veriler yükleniyor…</span>
+      <span id="notifLine">İlanlar her sabah taranır ve bu sayfa kendiliğinden güncellenir. Ek bilgilerin, takip durumların ve tercih taslağın yalnızca bu tarayıcıda saklanır.</span>
+    </div>
+    <nav class="tabs" aria-label="Bölümler">
+      <a href="#ilanlar" data-tab="ilanlar">İlanlar<span class="cnt" id="newCnt" hidden></span></a>
+      <a href="#puan" data-tab="puan">Puan analizim</a>
+      <a href="#tercih" data-tab="tercih">Tercih listem</a>
+      <a href="#hazirlik" data-tab="hazirlik">Belge, mülakat, atama</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+
+<!-- İLANLAR -->
+<section data-view="ilanlar">
+  <p class="lead">Her ilan senin puanlarına, YBS bölümüne ve aşağıdaki "Ek bilgilerim" ayarlarına göre otomatik değerlendirilir. <b>Uygun</b>: tüm bilinen şartları karşılıyorsun. <b>Şartlı</b>: ilanın tam metninde ya da senin belgelerinde kontrol edilecek bir nokta var. Kesin kararı resmi ilan metni verir.</p>
+  <div class="toolbar">
+    <div class="seg" role="group" aria-label="Filtre">
+      <button type="button" data-f="aday" aria-pressed="true">Başvurabileceklerim</button>
+      <button type="button" data-f="takip" aria-pressed="false">Takip ettiklerim</button>
+      <button type="button" data-f="degil" aria-pressed="false">Uygun değil</button>
+      <button type="button" data-f="tum" aria-pressed="false">Tümü</button>
+    </div>
+    <button type="button" class="btn small" id="markSeen" hidden>Yenileri okundu say</button>
+  </div>
+  <div class="katbar" role="group" aria-label="Alan" id="katBar">
+    <button type="button" data-k="" aria-pressed="true">Tüm alanlar</button>
+    <button type="button" data-k="memur" aria-pressed="false">Memur kadroları</button>
+    <button type="button" data-k="uzman-yrd" aria-pressed="false">Uzman yardımcılığı</button>
+    <button type="button" data-k="banka" aria-pressed="false">Bankacılık</button>
+    <button type="button" data-k="bilisim" aria-pressed="false">Bilişim</button>
+    <button type="button" data-k="ajans" aria-pressed="false">Kalkınma ajansı</button>
+    <button type="button" data-k="kpsssiz" aria-pressed="false">KPSS şartsız</button>
+  </div>
+  <div class="list" id="ilanList">
+    <div class="empty" id="ilanEmpty">İlanlar yükleniyor. Tarama yapıldıkça yeni ilanlar burada son başvuru tarihine göre sıralanır.</div>
+  </div>
+
+  <div class="panel">
+    <h2>Takip edilen kaynaklar</h2>
+    <p class="muted" style="margin:0;font-size:14.5px">Günlük tarama bu resmi portalları ve onları aktaran haber sitelerini kontrol eder. Resmi bir portal o gün açılamazsa aynı ilanı yayımlayan haber kaynağından alınır; başvurudan önce her zaman resmi metne bak.</p>
+    <div class="srcs">
+      <a href="https://kamuilan.sbb.gov.tr" target="_blank" rel="noopener">kamuilan.sbb.gov.tr<span>Kamu İlan Portalı (SBB)</span></a>
+      <a href="https://www.kariyerkapisi.gov.tr/isealim" target="_blank" rel="noopener">kariyerkapisi.gov.tr<span>Kamu İşe Alım başvuruları</span></a>
+      <a href="https://iskur.gov.tr/ilanlar/kamu-memur-alim-ilanlari/" target="_blank" rel="noopener">iskur.gov.tr<span>Kamu memur ve işçi alım ilanları</span></a>
+      <a href="https://www.resmigazete.gov.tr" target="_blank" rel="noopener">resmigazete.gov.tr<span>İlanlar bölümü: uzman yardımcılığı, sınav duyuruları</span></a>
+      <a href="https://www.ilan.gov.tr" target="_blank" rel="noopener">ilan.gov.tr<span>Basın İlan Kurumu personel alımları</span></a>
+      <a href="https://yerelyonetimler.csb.gov.tr" target="_blank" rel="noopener">yerelyonetimler.csb.gov.tr<span>Belediye ve il özel idaresi ilanları</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- PUAN -->
+<section data-view="puan" hidden>
+  <div class="panel">
+    <h2>CV'nin kamu ilanlarındaki karşılığı</h2>
+    <div class="kv">
+      <div><b>Fakülte</b><span>Ankara Medipol Üniversitesi, Yönetim Bilişim Sistemleri (İİSBF), 2026. "İktisadi ve idari bilimler fakülteleri" diyen ilanlarda da değerlendirilirsin; sadece belirli bölümleri sayan ilanlarda YBS'nin adı geçmeli.</span></div>
+      <div><b>Güçlü yanların</b><span>Python, SQL, Excel, Streamlit ile veri analizi ve dashboard; SQL Server veri tabanı tasarımı; makine öğrenmesi projeleri; TÜBİTAK 2209-A projesi; kulüp yönetimi ve etkinlik organizasyonu. Bilişim, veri ve banka BT kollarında ve sözlü sınavlarda somut örnek olarak kullan.</span></div>
+      <div><b>İki programlama dili şartı</b><span>Sözleşmeli bilişim ilanlarının ortak şartı. Python ve SQL (ayrıca TypeScript) ile karşılayabilirsin; GitHub depoların ve sertifikaların belge olur.</span></div>
+      <div><b>En büyük eksik: dil belgesi</b><span>İngilizcen B1 ve YDS belgen yok. Ajans uzmanlıkları, YTB, TCMB ve NDK gibi ilanlar YDS 70–80 istiyor. Bir YDS veya e-YDS sonucu, sana açık ilan sayısını en çok artıracak adım.</span></div>
+      <div><b>Deneyim</b><span>VBT Yazılım'daki 2 aylık uzaktan staj, 3+ yıl isteyen bilişim ilanları için sayılmaz. Bu ilanlar için deneyim kazanırken KPSS'siz banka ve kurum sınavları (Halkbank, VakıfBank BT, BDDK Bilişim-3) senin en iyi yolun.</span></div>
+    </div>
+  </div>
+  <div class="grid2">
+    <div class="panel">
+      <h2>Puanların ne işe yarar?</h2>
+      <div class="tscroll"><table>
+        <thead><tr><th>Puan</th><th>Nerede kullanılır</th><th style="text-align:right">Senin</th></tr></thead>
+        <tbody>
+          <tr><td><b>P3</b></td><td>Lisans mezunları için merkezi atama (KPSS tercihleri), belediyeler, Jandarma, kalkınma ajanslarının çoğu, sözleşmeli bilişim ilanları</td><td class="num">75,34287</td></tr>
+          <tr><td><b>P1 / P2</b></td><td>Bazı kalkınma ajansları ve kurum ilanları "P1, P2 veya P3" der; o zaman en yükseğin olan <b>P1</b> sayılır</td><td class="num">78,59125</td></tr>
+          <tr><td><b>A grubu (P4–P48)</b></td><td>Uzman yardımcılığı, müfettiş yardımcılığı gibi kadrolar. Alan sınavlarına girmediğin için bu ilanlar sana kapalı</td><td class="num">—</td></tr>
+        </tbody>
+      </table></div>
+      <p class="muted" style="margin:0;font-size:14.5px">Genel Yetenek 41 doğru / 9 yanlış, Genel Kültür 25 doğru / 27 yanlış. Puanını en çok Genel Kültür yükseltir; 2028 KPSS'ye girersen A grubu oturumları da açılan kadro sayısını belirgin artırır.</p>
+    </div>
+    <div class="panel">
+      <h2>Ek bilgilerim</h2>
+      <p class="muted" style="margin:0;font-size:14.5px">Bunlar ilanlardaki ek şartları değerlendirmek için kullanılır. Bilmediğin alanı "Belirtmedim" bırak; o ilanlar "şartlı" görünür.</p>
+      <div class="form" id="profilForm">
+        <label for="pYds">YDS / e-YDS puanı<small>Yoksa boş bırak</small><input id="pYds" type="number" min="0" max="100" step="0.25" inputmode="decimal" placeholder="örn. 62,5"></label>
+        <label for="pDen">Belgelenmiş iş deneyimi (yıl)<small>Mezuniyet sonrası, SGK'lı</small><input id="pDen" type="number" min="0" max="40" step="1" value="0"></label>
+        <label for="pEhl">B sınıfı ehliyet<select id="pEhl"><option value="">Belirtmedim</option><option value="1">Var</option><option value="0">Yok</option></select></label>
+        <label for="pBoy">Boy 1,60 m ve üstü<small>Zabıta ilanları için</small><select id="pBoy"><option value="">Belirtmedim</option><option value="1">Evet</option><option value="0">Hayır</option></select></label>
+        <label for="pYas">Sınav günü 30 yaşın altında<select id="pYas"><option value="">Belirtmedim</option><option value="1">Evet</option><option value="0">Hayır</option></select></label>
+        <label for="pSert">Bilgisayar işletmenliği sertifikası<small>MEB onaylı</small><select id="pSert"><option value="">Belirtmedim</option><option value="1">Var</option><option value="0">Yok</option></select></label>
+      </div>
+      <div class="muted" id="profilSaved" style="font-size:13px">&nbsp;</div>
+    </div>
+  </div>
+  <div class="panel">
+    <h2>Geçmiş merkezi atama tabanları ve P3'ün</h2>
+    <p class="lead" style="font-size:15px">Herhangi bir lisans bölümünün başvurabildiği bazı kadroların en düşük yerleşme puanları (KPSS-2025/1 ve 2025/2). Tabanlar her dönem değişir, ama hangi kadroların menzilinde olduğunu gösterir.</p>
+    <div class="tscroll"><svg class="chart" id="tabanChart" viewBox="0 0 760 320" role="img" aria-label="Geçmiş taban puanları ile senin P3 puanının karşılaştırması"></svg></div>
+    <p class="muted" style="margin:0;font-size:14px">Kaynak: eleman.net KPSS kılavuzu arşivi, YBS mezunlarına açık kadrolar. Hareket memuru (TCDD) kadrolarının birçoğu 72–76 bandında kapanmış; P3'ün bu bantta.</p>
+  </div>
+  <div class="panel">
+    <h2>YBS mezunu olarak bakman gereken unvanlar</h2>
+    <div class="kv">
+      <div><b>Memur / Büro personeli</b><span>Merkezi atamada "herhangi bir lisans" (nitelik kodu 4001) kadrolarının çoğu bu unvanla açılır. Üniversite ve büyükşehir kadroları genelde 80+ kapanır, taşra ve ilçe kadroları daha düşük.</span></div>
+      <div><b>Hareket memuru (TCDD Taşımacılık)</b><span>Lisans, herhangi bölüm. Geçmiş tabanlar P3'üne en yakın grup.</span></div>
+      <div><b>VHKİ / Bilgisayar işletmeni</b><span>Bölüm şartının yanında çoğunlukla bilgisayar işletmenliği sertifikası ister. Sertifika küçük bir yatırımla bu kapıyı açar.</span></div>
+      <div><b>Kalkınma ajansı büro görevlisi</b><span>YBS sık sık listede. P1–P3'ten 70 isteniyor, senin P1 78,59 sayılır.</span></div>
+      <div><b>Zabıta memuru</b><span>Bazı belediyeler "bölüm şartı yok" der. Boy, kilo, yaş ve ehliyet şartlarına dikkat.</span></div>
+      <div><b>Sözleşmeli bilişim personeli</b><span>YBS genelde kabul edilir ama 3+ yıl deneyim istenir. Şimdilik değil, birkaç yıl sonra güçlü bir yol.</span></div>
+      <div><b>Uzman yardımcılığı (kurum sınavlı)</b><span>Bazı kurumlar KPSS yerine kendi sınavını yapar ve YBS'yi kabul eder (ör. YTB). Genelde YDS ister.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TERCİH -->
+<section data-view="tercih" hidden>
+  <div class="panel">
+    <div class="eyebrow">ÖSYM merkezi atama</div>
+    <h2>KPSS-2026/2 tercihleri</h2>
+    <div class="countdown"><b id="tercihDays">–</b><span>gün kaldı · tercihler <b style="font-size:inherit;color:inherit;font-family:inherit">17–24 Aralık 2026</b>, ÖSYM AİS üzerinden. Yaklaşık 2.500 kadro bekleniyor; kılavuz tercih döneminde yayımlanacak.</span></div>
+    <ol class="steps" style="font-size:15px">
+      <li><span>Kılavuz çıkınca Tablo-1'de nitelik kodlarına bak: <b class="mono">4001</b> (herhangi bir lisans) ve "Yönetim Bilişim Sistemleri" geçen kodlar senin kadroların.</span></li>
+      <li><span>Ekstra şartları (sertifika, cinsiyet, yaş, ehliyet) kadro kadro kontrol et; şartı tutmayan tercih boşa gider.</span></li>
+      <li><span>En fazla 30 tercih. Üstte istediğin ama tabanı yüksek kadrolar, altta tabanı P3'üne yakın veya altında olanlar. Sıralama yerleşmeyi etkilemez, sadece önceliğini belirler; o yüzden listeyi boş bırakma.</span></li>
+    </ol>
+  </div>
+  <div class="panel">
+    <h2>Tercih taslağım <span class="muted mono" id="tCount" style="font-size:15px;font-weight:500">0/30</span></h2>
+    <p class="muted" style="margin:0;font-size:14.5px">Kılavuzdan kadroları buraya ekle, sırayı oklarla düzenle. Taban sütununa geçmiş dönem tabanını yazarsan P3'ünle karşılaştırılır.</p>
+    <div id="tList"></div>
+    <form class="addrow" id="tForm" autocomplete="off">
+      <input id="tKod" placeholder="ÖSYM kodu" class="mono" inputmode="numeric" aria-label="ÖSYM kadro kodu">
+      <input id="tKurum" placeholder="Kurum" aria-label="Kurum" required>
+      <input id="tKadro" placeholder="Kadro unvanı" aria-label="Kadro unvanı">
+      <input id="tIl" placeholder="İl / ilçe" aria-label="İl ve ilçe">
+      <input id="tTaban" placeholder="Geçmiş taban" inputmode="decimal" aria-label="Geçmiş taban puanı">
+      <button class="btn primary" type="submit">Ekle</button>
+    </form>
+  </div>
+</section>
+
+<!-- HAZIRLIK -->
+<section data-view="hazirlik" hidden>
+  <div class="panel">
+    <h2>Atanmayı kolaylaştıran belgeler</h2>
+    <div class="kv">
+      <div><b>YDS / e-YDS</b><span>Kalkınma ajansları, NDK ve YÖK gibi kurumlar KPSS'nin yanında dil puanını %30–35 ağırlıkla sayıyor; uzman kadroları genelde en az C (70) ister. Belgesiz aday 0 alır. En çok kapı açan tek belge bu.</span></div>
+      <div><b>Bilgisayar işletmenliği sertifikası</b><span>VHKİ ve bilgisayar işletmeni kadrolarında sık şart. MEB onaylı halk eğitim veya özel kurs sertifikası kabul edilir.</span></div>
+      <div><b>B sınıfı ehliyet</b><span>Zabıta ilanlarının neredeyse hepsinde zorunlu.</span></div>
+      <div><b>Yüksek lisans</b><span>Bazı ilanlarda ek puan (ör. ORAN büro görevlisinde %10). Tezli YBS yüksek lisansı uzmanlık yollarını da açar.</span></div>
+      <div><b>2028 KPSS A grubu</b><span>Uzman ve müfettiş yardımcılığı ilanlarının çoğu P4–P48 ister. Bir sonraki dönemde alan oturumlarına girmek seçenekleri genişletir.</span></div>
+      <div><b>Yazılım/proje deneyimi belgesi</b><span>Sözleşmeli bilişim ilanları SGK dökümüyle belgelenmiş deneyim ve iki programlama dili belgesi ister. Şimdiden çalıştığın işlerin görev yazısını saklamaya başla.</span></div>
+    </div>
+  </div>
+  <div class="grid2">
+    <div class="panel">
+      <h2>Sözlü sınav ve mülakat notları</h2>
+      <ul style="margin:0;padding-left:20px;display:grid;gap:6px;font-size:15px">
+        <li><b>Konular:</b> Belediye ve kurum ilanlarında çoğu zaman Anayasa, Atatürk ilke ve inkılapları, 657 sayılı Devlet Memurları Kanunu ve kurumun kendi kanunu (belediyede 5393) sorulur. İlan metnindeki konu listesini çıkar ve ona göre çalış.</li>
+        <li><b>Puanlama başlıkları:</b> Konu bilgisi, bir konuyu kavrayıp özetleme ve ifade, temsil kabiliyeti ve davranış, özgüven ve ikna, genel kültür, bilimsel ve teknolojik gelişmelere açıklık. Kurul ortalaması genelde en az 70 olmalı.</li>
+        <li><b>Kurumu tanı:</b> Kuruluş kanunu, bağlı olduğu bakanlık, son dönem projeleri. Kalkınma ajansında bölge planı ve destek programları; Jandarma'da teşkilat yapısı.</li>
+        <li><b>YBS'ni kullan:</b> "Kurumunuzdaki bir süreci nasıl dijitalleştirirsiniz?" tarzı sorulara bir ERP, veri tabanı ya da e-Devlet örneğiyle cevap hazırla.</li>
+        <li><b>Prova:</b> "Neden bu kurum?", "Kendinizi tanıtın", "Bir çatışmayı nasıl çözdünüz?" sorularına 60 saniyelik cevaplar yaz ve sesli çalış.</li>
+        <li><b>Belgeler:</b> Sınava çağrı listesi çoğunlukla kurum sitesinde ilan edilir; tebligat yapılmaz. Takip ettiğin ilanların sitesine bak.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h2>Atandıktan sonra</h2>
+      <ol class="steps" style="font-size:15px">
+        <li><span><b>Evrak teslimi:</b> Diploma veya e-Devlet mezun belgesi, KPSS sonuç belgesi, fotoğraf, adli sicil kaydı, "görevini yapmaya engel durumu yoktur" sağlık beyanı ya da raporu, mal bildirimi formu. Kurum listesine göre değişir.</span></li>
+        <li><span><b>Güvenlik soruşturması ve arşiv araştırması:</b> Kurum başlatır, form doldurursun. Birkaç haftadan birkaç aya sürebilir; sonuçlanmadan göreve başlatılmaz.</span></li>
+        <li><span><b>Göreve başlama:</b> Atama tebliğinden itibaren 15 gün içinde göreve başlamak gerekir; başlamazsan atama iptal edilir.</span></li>
+        <li><span><b>Aday memurluk:</b> En az 1, en çok 2 yıl. Temel eğitim, hazırlayıcı eğitim ve staj aşamalarından geçip başarılı olursan asil memur olursun.</span></li>
+        <li><span><b>Sözleşmeli ve iş sözleşmeli kadrolarda</b> (kalkınma ajansı, bilişim personeli) deneme süresi ve sözleşme şartları ilan metnindedir.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+
+<footer>Bu sayfa resmi bir kurumla bağlantılı değildir. Uygunluk değerlendirmesi ilanların haber özetlerinden çıkarılır; başvurmadan önce resmi ilan metnini kurumun sitesinden, Kariyer Kapısı'ndan veya ÖSYM'den doğrula.</footer>
+</div>
+</main>
+
+<script>
+(function(){
+const P = {P1:78.59125, P2:77.06142, P3:75.34287};
+const fmt = n => n.toLocaleString('tr-TR',{minimumFractionDigits:2,maximumFractionDigits:5});
+const esc = s => String(s ?? '').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const $ = s => document.querySelector(s);
+const DEFAULT_SEEN = '2026-11-04T00:00:00+03:00';
+
+let db=null, uid=null, ILAN=[], META=null;
+let PROFIL={ydsPuan:null, deneyimYil:0, ehliyetB:null, boy160:null, yas30:null, sertifika:null, gorulme:null};
+let TAKIP={}, TERCIH=[];
+let filter='aday', kat='';
+function katOf(i){ const k=new Set(i.kategori||[]); if(i.tur==='ajans') k.add('ajans'); if(i.kpssSart==='yok') k.add('kpsssiz'); if(!k.has('uzman-yrd')&&!k.has('banka')&&!k.has('bilisim')&&i.tur!=='ajans') k.add('memur'); return k; }
+
+/* ---------- routing ---------- */
+const VIEWS=['ilanlar','puan','tercih','hazirlik'];
+function route(){
+  const h=(location.hash||'').slice(1); const v=VIEWS.includes(h)?h:'ilanlar';
+  document.querySelectorAll('section[data-view]').forEach(s=>s.hidden=s.dataset.view!==v);
+  document.querySelectorAll('nav.tabs a').forEach(a=>{ if(a.dataset.tab===v) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+}
+addEventListener('hashchange',route); route();
+
+/* ---------- dates ---------- */
+function endOf(d){ return new Date(d+'T23:59:59+03:00'); }
+function daysLeft(d){ return Math.ceil((endOf(d)-Date.now())/86400000); }
+function trDate(d){ if(!d) return '—'; const x=new Date(d+'T12:00:00+03:00'); return x.toLocaleDateString('tr-TR',{day:'numeric',month:'long'}); }
+function updateStaticCountdowns(){
+  const t=daysLeft('2026-12-17'); $('#tercihDays').textContent = t>0? t : (daysLeft('2026-12-24')>=0?'Şimdi':'Bitti');
+  const v=Math.round((new Date('2028-10-01T00:00:00+03:00')-Date.now())/86400000/30.4);
+  $('#validLeft').textContent = v>0 ? `yaklaşık ${v} ay kaldı` : '2028 sonuçlarına dek';
+}
+updateStaticCountdowns();
+
+/* ---------- eligibility ---------- */
+function evaluate(i){
+  const ok=[],check=[],fail=[];
+  const p=PROFIL;
+  if(i.ybs==='yok') fail.push('YBS, kabul edilen bölümler arasında değil');
+  else if(i.ybs==='kontrol') check.push('Bölüm listesi ilanın tam metninde; YBS geçiyor mu kontrol et');
+  else if(i.ybs==='kabul') ok.push('YBS açıkça kabul ediliyor');
+  else if(i.ybs==='herhangi') ok.push('Bölüm şartı yok, tüm lisans mezunları');
+  else if(i.ybs==='iibf') ok.push('İktisadi ve idari bilimler fakülteleri kabul ediliyor (fakülten İİSBF)');
+  if(i.aGrubu) fail.push('A grubu puan türü istiyor; sende yalnızca P1–P3 var');
+  if(i.kpssSart==='yok') ok.push('KPSS puanı aranmıyor');
+  const types=(i.puanTurleri||[]).filter(t=>P[t]!=null);
+  if(!i.aGrubu && types.length){
+    let best=types.reduce((a,t)=>P[t]>P[a]?t:a,types[0]);
+    if(i.minPuan!=null){
+      if(P[best] < i.minPuan) fail.push(`En yüksek geçerli puanın ${best} ${fmt(P[best])}, asgari ${fmt(i.minPuan)}`);
+      else ok.push(`${best} ${fmt(P[best])} ≥ asgari ${fmt(i.minPuan)}`);
+    } else ok.push(`${best} puanınla başvurabilirsin (asgari belirtilmemiş)`);
+  }
+  if(i.deneyimYil>0){
+    const d=Number(p.deneyimYil)||0;
+    if(d < i.deneyimYil) fail.push(`En az ${i.deneyimYil} yıl belgelenmiş deneyim gerekiyor`);
+    else ok.push(`${i.deneyimYil}+ yıl deneyim şartı tamam`);
+  }
+  if(i.ydsMin!=null){
+    if(p.ydsPuan==null) check.push(`YDS/e-YDS en az ${i.ydsMin} gerekiyor`);
+    else if(p.ydsPuan < i.ydsMin) fail.push(`YDS puanın ${fmt(p.ydsPuan)}, en az ${i.ydsMin} isteniyor`);
+    else ok.push(`YDS ${fmt(p.ydsPuan)} yeterli`);
+  }
+  if(i.ydsArti) ok.push(i.ydsArti);
+  if(i.ehliyetB){ if(p.ehliyetB==null) check.push('B sınıfı ehliyet zorunlu'); else if(!p.ehliyetB) fail.push('B sınıfı ehliyet zorunlu'); else ok.push('Ehliyet şartı tamam'); }
+  if(i.boy){ if(p.boy160==null) check.push('Kadınlarda en az 1,60 m boy ve kilo sınırı'); else if(!p.boy160) fail.push('Boy şartı (1,60 m) karşılanmıyor'); else ok.push('Boy şartı tamam'); }
+  if(i.yasUst){ if(i.yasUst<=30){ if(p.yas30==null) check.push(`Sınav günü ${i.yasUst} yaşından küçük olmalısın`); else if(!p.yas30) fail.push(`${i.yasUst} yaş sınırı aşılıyor`); else ok.push('Yaş şartı tamam'); } else if(p.yas30!==true) check.push(`${i.yasUst} yaş sınırı var`); else ok.push('Yaş şartı tamam'); }
+  if(i.sertifika){ if(p.sertifika==null) check.push('Bilgisayar işletmenliği sertifikası istenebilir'); else if(!p.sertifika) check.push('Sertifika şartı ilan metninde olabilir; sende yok'); else ok.push('Sertifikan var'); }
+  (i.kontrol||[]).forEach(c=>check.push(c));
+  const closed = !!i.sonTarih && endOf(i.sonTarih).getTime() < Date.now();
+  const status = fail.length?'uygun-degil':(check.length?'sartli':'uygun');
+  return {ok,check,fail,status,closed};
+}
+
+/* ---------- ilan render ---------- */
+const STLABEL={'uygun':'Uygun','sartli':'Şartlı','uygun-degil':'Uygun değil'};
+const TAKIPLER=[['','Takip etmiyorum'],['takip','Takipteyim'],['basvurdum','Başvurdum'],['sinav','Sınava/mülakata çağrıldım'],['kazandim','Kazandım'],['olmadi','Olmadı']];
+function seenTime(){ return new Date(PROFIL.gorulme||DEFAULT_SEEN).getTime(); }
+function isNew(i){ return i.eklenme && new Date(i.eklenme).getTime() > seenTime(); }
+
+function renderIlanlar(){
+  const list=$('#ilanList');
+  const rows=ILAN.map(i=>({i,e:evaluate(i)}));
+  const newOnes=rows.filter(r=>isNew(r.i) && r.e.status!=='uygun-degil' && !r.e.closed);
+  const cnt=$('#newCnt'); cnt.hidden=!newOnes.length; cnt.textContent=newOnes.length;
+  $('#markSeen').hidden=!rows.some(r=>isNew(r.i));
+  let shown=rows.filter(({i,e})=>{
+    if(kat && !katOf(i).has(kat)) return false;
+    if(filter==='aday') return e.status!=='uygun-degil' && !e.closed;
+    if(filter==='degil') return e.status==='uygun-degil';
+    if(filter==='takip') return !!TAKIP[i.id]?.durum;
+    return true;
+  });
+  shown.sort((a,b)=>{
+    if(a.e.closed!==b.e.closed) return a.e.closed?1:-1;
+    const ra={'uygun':0,'sartli':1,'uygun-degil':2};
+    if(filter==='tum' && ra[a.e.status]!==ra[b.e.status]) return ra[a.e.status]-ra[b.e.status];
+    return (a.i.sonTarih||'9999').localeCompare(b.i.sonTarih||'9999');
+  });
+  if(!ILAN.length){ list.innerHTML=`<div class="empty">Henüz ilan yok. Tarama yapıldıkça yeni ilanlar burada son başvuru tarihine göre sıralanır.</div>`; return; }
+  if(!shown.length){ list.innerHTML=`<div class="empty">${filter==='takip'?'Henüz takip ettiğin ilan yok. Bir ilanın altındaki menüden "Takipteyim" seç.':'Bu filtrede ilan yok.'}</div>`; return; }
+  const openIds=new Set([...list.querySelectorAll('details[open]')].map(d=>d.dataset.id));
+  list.innerHTML=shown.map(({i,e})=>card(i,e,openIds.has(i.id))).join('');
+}
+function stampHtml(i,e){
+  if(e.closed) return `<div class="ring gone"><span>KAPANDI</span></div>`;
+  if(i.basTarih && daysLeft(i.basTarih)>0 && i.sonTarih){ const s=daysLeft(i.basTarih); return `<div class="ring calm"><div><b>${s}</b><span>GÜNE<br>AÇILIR</span></div></div>`; }
+  if(!i.sonTarih) return `<div class="ring calm"><span>TARİH<br>YOK</span></div>`;
+  const d=daysLeft(i.sonTarih);
+  return `<div class="ring${d>10?' calm':''}"><div><b>${d===0?'BUGÜN':d}</b><span>${d===0?'SON GÜN':'GÜN KALDI'}</span></div></div>`;
+}
+function card(i,e,open){
+  const t=TAKIP[i.id]||{};
+  const tag=[];
+  if(isNew(i)) tag.push('<span class="chip new">Yeni</span>');
+  if(i.tur) tag.push(`<span class="chip">${esc({merkezi:'Merkezi atama',kurum:'Kurum ilanı',belediye:'Belediye',ajans:'Kalkınma ajansı'}[i.tur]||i.tur)}</span>`);
+  if(i.sozlesme) tag.push(`<span class="chip">${esc({kadro:'Kadrolu (657)','sozlesmeli':'Sözleşmeli','is-sozlesmesi':'İş sözleşmesi'}[i.sozlesme]||i.sozlesme)}</span>`);
+  if(i.puanTurleri?.length) tag.push(`<span class="chip mono">${esc(i.puanTurleri.join('/'))}${i.minPuan!=null?' ≥ '+fmt(i.minPuan):''}</span>`);
+  if(i.kpssSart==='yok') tag.push('<span class="chip">KPSS şartsız</span>');
+  const reasons=[...e.fail.map(x=>['fail',x]),...e.check.map(x=>['check',x]),...e.ok.map(x=>['ok',x])].slice(0,6);
+  const li=(arr)=>arr&&arr.length?`<ol>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:'';
+  const ul=(arr)=>arr&&arr.length?`<ul>${arr.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'';
+  return `<article class="ilan st-${e.status}">
+    <div class="stamp">${stampHtml(i,e)}</div>
+    <div class="body">
+      <div class="head">
+        <div style="min-width:0">
+          <h3>${esc(i.kurum)}</h3>
+          <div class="meta"><span>${esc(i.kadro)}</span>${i.kontenjan?`<span>${esc(i.kontenjan)}</span>`:''}${i.il?`<span>${esc(i.il)}</span>`:''}<span>${i.basTarih&&daysLeft(i.basTarih)>0?'Açılış '+trDate(i.basTarih)+' · ':''}Son gün ${trDate(i.sonTarih)}</span></div>
+        </div>
+        <span class="verdict ${e.status}">${e.closed?'Süresi doldu':STLABEL[e.status]}</span>
+      </div>
+      <div class="chips">${tag.join('')}</div>
+      <ul class="reasons">${reasons.map(([k,x])=>`<li class="r-${k}">${esc(x)}</li>`).join('')}</ul>
+      ${i.cvEslesme?`<p class="cvfit"><b>CV'nle bağlantısı</b> ${esc(i.cvEslesme)}</p>`:''}
+      <details class="more" data-id="${esc(i.id)}"${open?' open':''}><summary>Başvuru yolu ve kurum bilgisi</summary>
+        <div class="detail">
+          ${i.ozet?`<p>${esc(i.ozet)}</p>`:''}
+          <div class="cols2">
+            <div><h4>Nasıl başvurulur</h4>${li(i.adimlar)||`<p>${esc(i.basvuruYeri||'İlan metnine bak')}</p>`}</div>
+            <div><h4>Hazırlanacak belgeler</h4>${ul(i.belgeler)||'<p class="muted">İlan metninde listeleniyor.</p>'}</div>
+          </div>
+          ${i.sinav?`<div><h4>Sınav / mülakat</h4><p>${esc(i.sinav)}</p></div>`:''}
+          ${i.kurumBilgi?`<div><h4>Kurumu tanı</h4><p>${esc(i.kurumBilgi)}</p></div>`:''}
+          <div style="display:flex;flex-wrap:wrap;gap:12px">${i.basvuruUrl?`<a href="${esc(i.basvuruUrl)}" target="_blank" rel="noopener">Başvuru sayfası ↗</a>`:''}${i.kaynak?`<a href="${esc(i.kaynak)}" target="_blank" rel="noopener">İlan haberi ↗</a>`:''}</div>
+        </div>
+      </details>
+      <div class="track">
+        <label class="muted" for="tk-${esc(i.id)}" style="font-size:14px">Durumum</label>
+        <select id="tk-${esc(i.id)}" data-track="${esc(i.id)}">${TAKIPLER.map(([v,l])=>`<option value="${v}"${(t.durum||'')===v?' selected':''}>${l}</option>`).join('')}</select>
+        ${t.durum?`<input data-note="${esc(i.id)}" id="nt-${esc(i.id)}" placeholder="Not: sınav tarihi, şifre yok…" value="${esc(t.not||'')}" style="flex:1 1 200px" aria-label="Not">`:''}
+      </div>
+    </div>
+  </article>`;
+}
+$('#katBar').addEventListener('click',ev=>{
+  const b=ev.target.closest('button[data-k]'); if(!b) return;
+  kat=b.dataset.k; document.querySelectorAll('#katBar button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  renderIlanlar();
+});
+document.querySelector('.seg').addEventListener('click',ev=>{
+  const b=ev.target.closest('button[data-f]'); if(!b) return;
+  filter=b.dataset.f; document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  renderIlanlar();
+});
+$('#ilanList').addEventListener('change',ev=>{
+  const s=ev.target.closest('select[data-track]');
+  if(s){ const id=s.dataset.track; TAKIP={...TAKIP,[id]:{...(TAKIP[id]||{}),durum:s.value,guncel:new Date().toISOString()}}; saveDoc('takip',{items:TAKIP}); renderIlanlar(); return; }
+  const n=ev.target.closest('input[data-note]');
+  if(n){ const id=n.dataset.note; TAKIP={...TAKIP,[id]:{...(TAKIP[id]||{}),not:n.value.slice(0,300)}}; saveDoc('takip',{items:TAKIP}); }
+});
+$('#markSeen').addEventListener('click',()=>{ PROFIL={...PROFIL,gorulme:new Date().toISOString()}; saveDoc('profil',PROFIL); renderIlanlar(); });
+
+/* ---------- profile form ---------- */
+const triIn = v => v===''?null:v==='1';
+const triOut = v => v==null?'':(v?'1':'0');
+function fillProfil(){
+  $('#pYds').value = PROFIL.ydsPuan ?? '';
+  $('#pDen').value = PROFIL.deneyimYil ?? 0;
+  $('#pEhl').value = triOut(PROFIL.ehliyetB); $('#pBoy').value=triOut(PROFIL.boy160); $('#pYas').value=triOut(PROFIL.yas30); $('#pSert').value=triOut(PROFIL.sertifika);
+}
+$('#profilForm').addEventListener('change',()=>{
+  const y=$('#pYds').value.replace(',','.');
+  PROFIL={...PROFIL, ydsPuan: y===''?null:Math.max(0,Math.min(100,Number(y))), deneyimYil: Number($('#pDen').value)||0,
+    ehliyetB:triIn($('#pEhl').value), boy160:triIn($('#pBoy').value), yas30:triIn($('#pYas').value), sertifika:triIn($('#pSert').value)};
+  saveDoc('profil',PROFIL).then(ok=>{$('#profilSaved').textContent= ok?'Kaydedildi. İlan değerlendirmeleri güncellendi.':'Bu oturumda kaydedilemedi; değişiklikler sayfa açıkken geçerli.';});
+  renderIlanlar();
+});
+
+/* ---------- taban chart ---------- */
+function drawChart(){
+  const data=[
+    ['Rekabet Kurumu · Memur · Ankara (25/2)',82.875],
+    ['Gümüşhane Üni. · Büro Personeli (25/1)',85.37426],
+    ['Bayburt Üni. · Büro Personeli (25/1)',82.63927],
+    ['TCDD · Hareket Memuru · İzmir Aliağa (25/1)',77.22534],
+    ['TCDD · Hareket Memuru · Ankara Yenimahalle (25/2)',76.15117],
+    ['TCDD · Hareket Memuru · Bilecik (25/2)',75.86146],
+    ['TCDD · Hareket Memuru · İstanbul Silivri (25/1)',74.5508],
+    ['TCDD · Hareket Memuru · Erzurum Aşkale (25/2)',74.67772],
+    ['TCDD · Hareket Memuru · Edirne Merkez (25/2)',72.31457],
+    ['TCDD · Hareket Memuru · Erzincan Tercan (25/2)',71.51327]
+  ].sort((a,b)=>b[1]-a[1]);
+  const W=760,L=300,R=40,T=14,rowH=27,H=T+data.length*rowH+30, min=70,max=88;
+  const x=v=>L+(v-min)/(max-min)*(W-L-R);
+  let s='';
+  for(let v=70;v<=88;v+=2){ s+=`<line x1="${x(v)}" x2="${x(v)}" y1="${T-4}" y2="${H-26}" stroke="var(--line)"/><text x="${x(v)}" y="${H-10}" text-anchor="middle">${v}</text>`; }
+  data.forEach(([n,v],k)=>{ const y=T+k*rowH; const hit=v<=P.P3;
+    s+=`<text class="lbl" x="${L-10}" y="${y+16}" text-anchor="end">${esc(n)}</text>`;
+    s+=`<rect x="${x(min)}" y="${y+6}" width="${x(v)-x(min)}" height="14" rx="3" fill="${hit?'var(--ok)':'var(--no)'}" opacity="${hit?0.85:0.45}"/>`;
+    s+=`<text x="${x(v)+5}" y="${y+17}">${fmt(v)}</text>`; });
+  s+=`<line x1="${x(P.P3)}" x2="${x(P.P3)}" y1="${T-8}" y2="${H-26}" stroke="var(--seal)" stroke-width="2" stroke-dasharray="4 3"/>`;
+  s+=`<text class="me" x="${x(P.P3)+4}" y="${T}" style="fill:var(--seal)">P3 75,34</text>`;
+  const svg=$('#tabanChart'); svg.setAttribute('viewBox',`0 0 ${W} ${H}`); svg.innerHTML=s; svg.style.minWidth='620px';
+}
+drawChart();
+
+/* ---------- tercih ---------- */
+function renderTercih(){
+  $('#tCount').textContent=`${TERCIH.length}/30`;
+  const el=$('#tList');
+  if(!TERCIH.length){ el.innerHTML=`<div class="empty" style="padding:24px">Henüz tercih eklemedin. Kılavuz 17 Aralık civarı çıkınca kadroları buraya yaz.</div>`; return; }
+  el.innerHTML=TERCIH.map((t,k)=>{
+    const tb=parseFloat(String(t.taban||'').replace(',','.'));
+    const chip=isNaN(tb)?'':(tb<=P.P3?`<span class="chip ok mono">${fmt(tb)}</span>`:(tb-P.P3<=2?`<span class="chip warn mono">${fmt(tb)}</span>`:`<span class="chip no mono">${fmt(tb)}</span>`));
+    return `<div class="trow"><span class="n">${String(k+1).padStart(2,'0')}</span>
+      <span class="c1"><b>${esc(t.kurum)}</b>${t.kod?` <span class="mono muted" style="font-size:13px">${esc(t.kod)}</span>`:''}</span>
+      <span class="c2">${esc(t.kadro||'')}</span><span class="c3 muted">${esc(t.il||'')}</span><span class="c4">${chip}</span>
+      <span class="acts"><button class="icon" data-up="${k}" aria-label="Yukarı taşı">↑</button><button class="icon" data-down="${k}" aria-label="Aşağı taşı">↓</button><button class="icon" data-del="${k}" aria-label="Sil">×</button></span></div>`;
+  }).join('');
+}
+$('#tForm').addEventListener('submit',ev=>{
+  ev.preventDefault(); if(TERCIH.length>=30) return;
+  const t={kod:$('#tKod').value.trim(),kurum:$('#tKurum').value.trim(),kadro:$('#tKadro').value.trim(),il:$('#tIl').value.trim(),taban:$('#tTaban').value.trim()};
+  if(!t.kurum) return; TERCIH=[...TERCIH,t]; ev.target.reset(); saveDoc('tercih',{liste:TERCIH}); renderTercih();
+});
+$('#tList').addEventListener('click',ev=>{
+  const b=ev.target.closest('button'); if(!b) return; const a=[...TERCIH];
+  if(b.dataset.del!=null) a.splice(+b.dataset.del,1);
+  else if(b.dataset.up!=null){ const k=+b.dataset.up; if(k>0) [a[k-1],a[k]]=[a[k],a[k-1]]; }
+  else if(b.dataset.down!=null){ const k=+b.dataset.down; if(k<a.length-1) [a[k+1],a[k]]=[a[k],a[k+1]]; }
+  TERCIH=a; saveDoc('tercih',{liste:TERCIH}); renderTercih();
+});
+
+/* ---------- persistence (bu tarayıcıda) ---------- */
+const LS='kadro-pusulasi:';
+function saveDoc(name,data){ try{ localStorage.setItem(LS+name, JSON.stringify(data)); return Promise.resolve(true);}catch(e){ return Promise.resolve(false);} }
+function loadDoc(name){ try{ const v=localStorage.getItem(LS+name); return v?JSON.parse(v):null; }catch(e){ return null; } }
+function scanText(){
+  const el=$('#scanStatus');
+  if(META?.sonTarama){ const d=new Date(META.sonTarama); el.innerHTML=`<span class="dot"></span>Son tarama ${d.toLocaleDateString('tr-TR',{day:'numeric',month:'long'})} ${d.toLocaleTimeString('tr-TR',{hour:'2-digit',minute:'2-digit'})} · ${ILAN.length} ilan izleniyor`; }
+  else el.innerHTML=`<span class="dot"></span>${ILAN.length} ilan izleniyor`;
+}
+async function boot(){
+  const p=loadDoc('profil'); if(p){ PROFIL={...PROFIL,...p}; fillProfil(); }
+  const t=loadDoc('takip'); if(t) TAKIP=t.items||{};
+  const tr=loadDoc('tercih'); if(tr){ TERCIH=tr.liste||[]; renderTercih(); }
+  try{
+    const [a,b]=await Promise.all([fetch('ilanlar.json',{cache:'no-store'}).then(r=>r.json()), fetch('meta.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>null)]);
+    ILAN=a.ilanlar||[]; META=b;
+  }catch(e){ $('#ilanEmpty').textContent='İlan listesi yüklenemedi. Sayfayı yenile.'; }
+  renderIlanlar(); scanText();
+}
+fillProfil(); renderTercih(); boot();
+
+})();
+</script>
+
+</body>
+</html>
