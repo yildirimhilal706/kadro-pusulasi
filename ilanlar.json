@@ -1,6 +1,401 @@
 {
  "ilanlar": [
   {
+   "id": "abb-mufettis-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "Resmi ilanı ankara.bel.tr'den indir, tablodaki bölüm ve puan türünü kontrol et",
+    "Belgeleri hazırla",
+    "23 Kasım–4 Aralık arasında Rehberlik ve Teftiş Kurulu Başkanlığına şahsen veya taahhütlü posta ile başvur",
+    "18 Aralık'ta sınava girecekler listesini kontrol et"
+   ],
+   "basTarih": "2026-11-23",
+   "basvuruUrl": "https://www.ankara.bel.tr",
+   "belgeler": [
+    "Kimlik veya e-Devlet karekodlu nüfus belgesi",
+    "Adli sicil kaydı",
+    "Askerlik durum belgesi (erkek)",
+    "Diploma/geçici mezuniyet belgesi",
+    "İki referans bilgisi ve el yazısı özgeçmiş",
+    "KPSS A grubu sonuç belgesi",
+    "6 biyometrik fotoğraf"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-10T08:46:00+03:00",
+   "il": "Ankara",
+   "kadro": "Müfettiş yardımcısı",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/86712/ankara-buyuksehir-belediyesi-5-mufettis-yardimcisi-alacak.html",
+   "kontenjan": "5",
+   "kontrol": [
+    "2025 veya 2026 KPSS A grubu puanı isteniyor; puan türü ve bölüm listesi ilan tablosunda (görsel), doğrulanamadı",
+    "Yazılı sınav tarihinde 35 yaşını doldurmamış olmak",
+    "Başvuru şahsen veya iadeli taahhütlü posta ile"
+   ],
+   "kpssSart": "var",
+   "kurum": "Ankara Büyükşehir Belediyesi",
+   "kurumBilgi": "Ankara Büyükşehir Belediyesi, Ankara'nın büyükşehir yerel yönetimidir; Rehberlik ve Teftiş Kurulu belediye birimlerinin denetimini yapar.",
+   "minPuan": null,
+   "ozet": "Ankara Büyükşehir Belediyesi Rehberlik ve Teftiş Kurulu için 5 müfettiş yardımcısı alacak; yazılı sınav 26 Aralık 2026'da. KPSS A grubu puanı istendiği için A grubuna girmeyen aday başvuramaz.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yazılı sınav 26.12.2026 09.00 (ekonomi, kamu maliyesi, hukuk, muhasebe, yerel yönetim mevzuatı, yabancı dil), ardından sözlü sınav.",
+   "sonTarih": "2026-12-04",
+   "sozlesme": "kadro",
+   "tur": "belediye",
+   "yasUst": 35,
+   "ybs": "kontrol",
+   "ydsArti": "Yazılı sınavda yabancı dil (İngilizce/Almanca/Fransızca) bölümü var, en az 60 not",
+   "ydsMin": null
+  },
+  {
+   "id": "afad-denetci-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "Resmi ilanı Kariyer Kapısı'ndan oku, bölüm ve puan türünü kontrol et",
+    "23–30 Kasım 17.00 arasında Kariyer Kapısı üzerinden başvur",
+    "Kadronun 4 katı aday KPSS sırasına göre sözlü sınava çağrılır",
+    "19–20 Ocak 2027 sözlü sınavına hazırlan"
+   ],
+   "basTarih": "2026-11-23",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/IlanDetay?i=f82ad1a8-39b9-4732-acb4-be6cbe8f772e",
+   "belgeler": [
+    "Diploma/mezuniyet belgesi",
+    "Fotoğraflı özgeçmiş",
+    "Biyometrik fotoğraf",
+    "Sağlık ve seyahat engeli olmadığına dair beyan",
+    "Askerlik bilgisi (erkek)"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-23T08:46:00+03:00",
+   "il": "Ankara",
+   "kadro": "Denetçi yardımcısı (Grup 1: iktisat/işletme/kamu yönetimi · Grup 2: mühendislik)",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://kamuatlas.com/kadro/afet-ve-acil-durum-yonetimi-denetci-yardimcisi-afet-ve-acil-durum-yonetimi-baskanligi-ankara-1334162e-8a1a-486e-aeb9-fac7a9782ccc",
+   "kontenjan": "7 (Grup 1: 4, Grup 2: 3)",
+   "kontrol": [
+    "Grup 1 bölüm listesinde YBS yok (İktisat, İşletme, Kamu Yönetimi, Maliye, ÇEEİ, Uİ vb.)",
+    "Grup 1 için KPSS P13/P33/P48 (A grubu) en az 80 isteniyor",
+    "Grup 2 kadro tablosunda P3 yazıyor ama genel şartlarda yalnızca A grubu sayılıyor; resmi ilandan kontrol et",
+    "01.01.1992 sonrası doğmuş olma şartı"
+   ],
+   "kpssSart": "var",
+   "kurum": "Afet ve Acil Durum Yönetimi Başkanlığı (AFAD)",
+   "kurumBilgi": "AFAD, afet ve acil durumlara hazırlık, müdahale ve iyileştirme çalışmalarını yürüten İçişleri Bakanlığına bağlı başkanlıktır.",
+   "minPuan": 80,
+   "ozet": "AFAD, Kariyer Kapısı üzerinden 7 denetçi yardımcısı alımı ilan etti; Grup 1'de iktisadi/idari bölümler, Grup 2'de mühendislik bölümleri isteniyor. Grup 1 için KPSS A grubu (P13/P33/P48) en az 80 şartı var ve YBS bölüm listesinde yer almıyor.",
+   "puanTurleri": [
+    "P13",
+    "P33",
+    "P48"
+   ],
+   "sertifika": false,
+   "sinav": "Sözlü sınav 19–20 Ocak 2027; 100 üzerinden en az 70 başarı.",
+   "sonTarih": "2026-11-30",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 34,
+   "ybs": "yok",
+   "ydsMin": null
+  },
+  {
+   "id": "afad-uzman-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "Kariyer Kapısı'nda AFAD uzman yardımcılığı ilanını aç",
+    "Bölüm listesini ve A grubu puan şartını kontrol et",
+    "23 Kasım 10.00 – 30 Kasım 17.00 arasında e-Devlet ile başvur",
+    "Sözlü sınav listesini Kariyer Kapısı'ndan takip et"
+   ],
+   "basTarih": "2026-11-23",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr",
+   "belgeler": [
+    "Diploma veya mezuniyet belgesi (e-Devlet'ten)",
+    "KPSS sonuç belgesi",
+    "YDS veya eşdeğer yabancı dil belgesi",
+    "Fotoğraf"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-16T08:55:00+03:00",
+   "il": "Ankara",
+   "kadro": "Uzman yardımcısı (iktisat/işletme/kamu yönetimi grubu · hukuk grubu)",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://www.habereguven.com/afad-13-uzman-yardimcisi-alacak-basvurular-23-kasimda-basliyor",
+   "kontenjan": "13 (10 iktisadi/idari grup, 3 hukuk)",
+   "kontrol": [
+    "YBS kabul edilen bölümler arasında sayılmıyor (iktisat, işletme, kamu yönetimi, siyaset bilimi, Uİ, maliye, ÇEEİ)",
+    "A grubu puan (P8, P9, P16, P21, P32, P43 / hukuk için P4) en az 70 isteniyor",
+    "YDS en az 70 şartı var",
+    "1 Ocak 1992'den sonra doğmuş olmak gerekiyor"
+   ],
+   "kpssSart": "var",
+   "kurum": "Afet ve Acil Durum Yönetimi Başkanlığı (AFAD)",
+   "kurumBilgi": "AFAD, İçişleri Bakanlığına bağlı olarak afet ve acil durum yönetimini yürüten kurumdur. Uzman yardımcıları tez ve yeterlik sınavından sonra AFAD uzmanı olur.",
+   "minPuan": 70,
+   "ozet": "AFAD, 16 Kasım 2026 tarihli Resmî Gazete ilanıyla genel idare hizmetleri sınıfında 13 uzman yardımcısı alacak; başvurular 23–30 Kasım arasında Kariyer Kapısı'ndan yapılacak. İktisadi/idari grupta yalnızca belirli bölümler, A grubu KPSS (en az 70) ve YDS 70 isteniyor.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yalnızca sözlü sınav, 26–28 Ocak 2027, AFAD hizmet binası (Ankara); her grupta kontenjanın 4 katı aday KPSS sırasına göre çağrılır.",
+   "sonTarih": "2026-11-30",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 34,
+   "ybs": "yok",
+   "ydsArti": "YDS/e-YDS (İngilizce, Almanca, Fransızca) en az 70 veya eşdeğeri; sonuç 23.11.2024 sonrası açıklanmış olmalı",
+   "ydsMin": 70
+  },
+  {
+   "id": "akhisar-memur",
+   "aGrubu": false,
+   "adimlar": [
+    "memurlar.net sayfasındaki ilan görselinden ve belediye sitesinden kadro tablosunu (öğrenim, bölüm, puan türü) kontrol et",
+    "Uygunsa 30 Kasım–11 Aralık arasında e-posta, şahsen veya iadeli posta ile İnsan Kaynakları ve Eğitim Müdürlüğüne başvur",
+    "Sınava çağrı listesini belediye sitesinden takip et"
+   ],
+   "basTarih": "2026-11-30",
+   "basvuruUrl": "https://www.akhisar.bel.tr",
+   "belgeler": [
+    "Başvuru formu",
+    "Diploma veya mezuniyet belgesi",
+    "2026 KPSS sonuç belgesi",
+    "B sınıfı sürücü belgesi",
+    "Fotoğraf"
+   ],
+   "boy": false,
+   "cvEslesme": "Excel ve raporlama becerin büro işlerinde ve sözlü sınavın mesleki bölümünde işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": true,
+   "eklenme": "2026-11-23T18:32:00+03:00",
+   "il": "Manisa Akhisar",
+   "kadro": "Memur",
+   "kategori": [],
+   "kaynak": "https://ilan.memurlar.net/ilan/86788/akhisar-belediyesi-1-memur-alacak.html",
+   "kontenjan": "1 kişi",
+   "kontrol": [
+    "Öğrenim düzeyi, bölüm ve KPSS puan türü/taban puanı ilan görselinde; metinden okunamadı (P3 varsayıldı)",
+    "B sınıfı ehliyet şartı var"
+   ],
+   "kpssSart": "var",
+   "kurum": "Akhisar Belediyesi",
+   "kurumBilgi": "Manisa'nın en büyük ilçelerinden Akhisar'ın belediyesi.",
+   "minPuan": null,
+   "ozet": "Akhisar Belediyesi 657'ye tabi 1 memur alacak; başvurular 30 Kasım–11 Aralık arasında. Kadronun öğrenim ve bölüm şartı ilan görselinde, başvurmadan önce kontrol et.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Sözlü sınav 29 Aralık 2026 10.00, Encümen Salonu; çağrı listesi 21 Aralık. Atama puanı sözlü ile KPSS ortalaması.",
+   "sonTarih": "2026-12-11",
+   "sozlesme": "kadro",
+   "tur": "belediye",
+   "yasUst": null,
+   "ybs": "kontrol",
+   "ydsMin": null
+  },
+  {
+   "id": "anadolu-uni-sozlesmeli",
+   "aGrubu": false,
+   "adimlar": [
+    "Kariyer Kapısı'nda Anadolu Üniversitesi ilanını aç, unvan ve bölüm şartını oku",
+    "Uygunsa 30 Kasım'a kadar e-Devlet/Kariyer Kapısı üzerinden başvur"
+   ],
+   "basTarih": "2026-11-16",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma",
+    "2026 KPSS sonuç belgesi"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-23T18:32:00+03:00",
+   "il": "Eskişehir",
+   "kadro": "Sözleşmeli personel (4/B, lisans)",
+   "kategori": [],
+   "kaynak": "https://www.kamuilantakvimi.com/ilanlar/anadolu-universitesi-1-sozlesmeli-personel-alimi-2026",
+   "kontenjan": "1 kişi",
+   "kontrol": [
+    "Unvan ve bölüm şartı resmi ilan metninde; ilan takvimi sitesinde yazmıyor",
+    "Son gün 30 Kasım, Kariyer Kapısı saatini kontrol et (13.00 olabilir)"
+   ],
+   "kpssSart": "var",
+   "kurum": "Anadolu Üniversitesi",
+   "kurumBilgi": "Eskişehir'deki köklü devlet üniversitesi, açıköğretim sistemiyle tanınır.",
+   "minPuan": 60,
+   "ozet": "Anadolu Üniversitesi lisans mezunu 1 sözleşmeli personel alacak, KPSS P3 en az 60. Unvan ve bölüm şartını Kariyer Kapısı'ndaki ilandan kontrol et.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Belirtilmemiş (genellikle KPSS sıralaması + sözlü sınav).",
+   "sonTarih": "2026-11-30",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": null,
+   "ybs": "kontrol",
+   "ydsMin": null
+  },
+  {
+   "id": "asarcik-memur",
+   "aGrubu": false,
+   "adimlar": [
+    "memurlar.net sayfasındaki ilan görselinden ve belediye sitesinden kadro tablosunu (öğrenim, bölüm, puan türü) kontrol et",
+    "Uygunsa 1–3 Aralık arasında e-posta, şahsen veya iadeli posta ile Yazı İşleri Müdürlüğüne başvur",
+    "Sınava çağrı listesini belediye sitesinden takip et"
+   ],
+   "basTarih": "2026-12-01",
+   "basvuruUrl": "https://www.asarcik.bel.tr",
+   "belgeler": [
+    "Başvuru formu",
+    "Diploma veya mezuniyet belgesi",
+    "2026 KPSS sonuç belgesi",
+    "B sınıfı sürücü belgesi",
+    "Fotoğraf"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": true,
+   "eklenme": "2026-11-23T18:32:00+03:00",
+   "il": "Samsun Asarcık",
+   "kadro": "Memur",
+   "kategori": [],
+   "kaynak": "https://ilan.memurlar.net/ilan/86820/samsun-asarcik-belediyesi-1-memur-alacak.html",
+   "kontenjan": "1 kişi",
+   "kontrol": [
+    "Öğrenim düzeyi, bölüm ve KPSS puan türü/taban puanı ilan görselinde; metinden okunamadı (P3 varsayıldı)",
+    "B sınıfı ehliyet şartı var"
+   ],
+   "kpssSart": "var",
+   "kurum": "Asarcık Belediyesi",
+   "kurumBilgi": "Samsun'un küçük ilçelerinden Asarcık'ın belediyesi.",
+   "minPuan": null,
+   "ozet": "Asarcık Belediyesi 1 memur alacak; başvurular 1–3 Aralık arasında. Kadro şartları ilan görselinde, başvurmadan kontrol et.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Sözlü sınav 18 Aralık 2026 10.00, belediye meclis salonu; çağrı listesi 10 Aralık.",
+   "sonTarih": "2026-12-03",
+   "sozlesme": "kadro",
+   "tur": "belediye",
+   "yasUst": null,
+   "ybs": "kontrol",
+   "ydsMin": null
+  },
+  {
+   "id": "atk-buro-2026",
+   "aGrubu": false,
+   "adimlar": [
+    "Resmi Gazete (20.11.2026, sayı 33436) Ek-1 tablosunda büro personeli satırlarının bölüm listesini kontrol et",
+    "30 Kasım–6 Aralık arasında e-Devlet > Adli Tıp Kurumu Başkanlığı - Kariyer Kapısı Kamu İşe Alım üzerinden tek pozisyona başvur",
+    "Sözlü sınav tarihini Kariyer Kapısı ve kurum sitesinden takip et"
+   ],
+   "basTarih": "2026-11-30",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "e-Devlet şifresi",
+    "Diploma/mezuniyet bilgisi (e-Devlet'ten gelir)",
+    "2026 KPSS P3 sonucu"
+   ],
+   "boy": false,
+   "cvEslesme": "Excel ve veri tabanı tasarımı becerin büro personelinin kayıt ve rapor takibi işlerinde işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-20T08:45:00+03:00",
+   "il": "İstanbul merkez + 21 ilde grup başkanlığı/şube (Ankara dahil)",
+   "kadro": "Sözleşmeli büro personeli (lisans; İşletme/İktisat/Kamu Yönetimi/Bilgi Belge Yönetimi)",
+   "kategori": [],
+   "kaynak": "https://www.isinolsa.com/adli-tip-kurumu-181-personel-alacak-22-il-icin-kontenjanlar-ve-basvuru-sartlari/",
+   "kontenjan": "39 lisans büro personeli (toplam ilan 181 pozisyon)",
+   "kontrol": [
+    "Haberlerde büro personeli bölümleri yalnızca İşletme, İktisat, Kamu Yönetimi ve Bilgi Belge Yönetimi olarak geçiyor; YBS'nin kabul edilip edilmediğini Resmi Gazete 33436 Ek-1 tablosundan kontrol et",
+    "Lisans Mühendis-Bilişim (4 kişi) pozisyonu mühendislik mezuniyeti istiyor olabilir; Ek-1'e bak"
+   ],
+   "kpssSart": "var",
+   "kurum": "Adli Tıp Kurumu Başkanlığı",
+   "kurumBilgi": "Adalet Bakanlığına bağlı Adli Tıp Kurumu, mahkemelere bilirkişilik ve adli tıp raporu hizmeti verir. Büro personeli rapor ve evrak yönetimi işlerinde çalışır.",
+   "minPuan": 70,
+   "ozet": "Adli Tıp Kurumu 4/B sözleşmeli 181 personel alıyor; bunların 39'u KPSS P3 en az 70 puanla lisans büro personeli. Sıralama KPSS puanına göre yapılıp pozisyon sayısının 3 katı aday İstanbul'da sözlü sınava çağrılacak.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "KPSS P3 sıralaması + sözlü sınav (İstanbul Bahçelievler, ATK merkez binası; tarih sonra duyurulacak)",
+   "sonTarih": "2026-12-06",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": null,
+   "ybs": "kontrol",
+   "ydsMin": null
+  },
+  {
+   "id": "aybu-sistem-uzmani",
+   "aGrubu": false,
+   "adimlar": [
+    "Resmi ilanı oku, bölüm ve deneyim şartını kontrol et",
+    "23 Kasım–7 Aralık 13.00 arasında e-Devlet/Kariyer Kapısı üzerinden başvur",
+    "Kadronun 10 katı aday sözlü/uygulamalı sınava çağrılır"
+   ],
+   "basTarih": "2026-11-23",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/",
+   "belgeler": [
+    "Diploma",
+    "SGK hizmet dökümü ve deneyim belgeleri",
+    "KPSS P3 ve YDS sonuç belgesi"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 5,
+   "ehliyetB": false,
+   "eklenme": "2026-11-23T08:46:00+03:00",
+   "il": "Ankara",
+   "kadro": "Sözleşmeli bilişim personeli · Sistem uzmanı",
+   "kategori": [
+    "bilisim"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/87065/ankara-yildirim-beyazit-universitesi-1-sozlesmeli-personel-alacak.html",
+   "kontenjan": "1",
+   "kontrol": [
+    "Bölüm listesinde YBS yok (Bilgisayar, Yazılım, Elektrik-Elektronik, Endüstri Mühendisliği)",
+    "En az 5 yıl büyük ölçekli sistem yönetimi deneyimi şartı",
+    "Puan: %70 KPSS P3 + %30 YDS"
+   ],
+   "kpssSart": "var",
+   "kurum": "Ankara Yıldırım Beyazıt Üniversitesi",
+   "kurumBilgi": "Ankara Yıldırım Beyazıt Üniversitesi, Ankara'da 2010'da kurulmuş bir devlet üniversitesidir.",
+   "minPuan": null,
+   "ozet": "Ankara Yıldırım Beyazıt Üniversitesi, Bilgi İşlem Daire Başkanlığı için 1 sözleşmeli sistem uzmanı alacak. Mühendislik bölümleri ve en az 5 yıl sistem yönetimi deneyimi isteniyor.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Sözlü/uygulamalı sınav; 100 üzerinden en az 70 başarı.",
+   "sonTarih": "2026-12-07",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": null,
+   "ybs": "yok",
+   "ydsArti": "Puanlamada %30 YDS (yoksa 0 sayılır)",
+   "ydsMin": null
+  },
+  {
    "aGrubu": false,
    "adimlar": [
     "Kariyer Kapısı üzerinden başvuru (yalnızca bir alan)"
@@ -40,6 +435,107 @@
    "ybs": "kabul",
    "ydsMin": null,
    "id": "bddk-2026"
+  },
+  {
+   "id": "bergama-memur",
+   "aGrubu": false,
+   "adimlar": [
+    "memurlar.net sayfasındaki ilan görselinden ve belediye sitesinden kadro tablosunu (öğrenim, bölüm, puan türü) kontrol et",
+    "Uygunsa 9–11 Aralık arasında e-posta, şahsen veya iadeli taahhütlü posta ile İnsan Kaynakları ve Eğitim Müdürlüğüne başvur",
+    "Sınava çağrı listesini belediye sitesinden takip et"
+   ],
+   "basTarih": "2026-12-09",
+   "basvuruUrl": "https://www.bergama.bel.tr",
+   "belgeler": [
+    "Başvuru formu",
+    "Diploma veya mezuniyet belgesi",
+    "2026 KPSS sonuç belgesi",
+    "B sınıfı sürücü belgesi",
+    "Fotoğraf"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-23T18:32:00+03:00",
+   "il": "İzmir Bergama",
+   "kadro": "Memur (Ekonomi/İktisat/Maliye) · Evlendirme memuru (Uluslararası İlişkiler/Maliye/Halkla İlişkiler)",
+   "kategori": [],
+   "kaynak": "https://www.isinolsa.com/bergama-belediyesi-2026-kpss-ile-duz-ve-evlendirme-memuru-alacak/",
+   "kontenjan": "4 kişi (2 memur + 2 evlendirme memuru)",
+   "kontrol": [
+    "Bölüm listesinde YBS ve 'iktisadi ve idari bilimler' geçmiyor (haber kaynağına göre)",
+    "P3 asgari 80; P3 75,34 bu eşiğin altında",
+    "Yalnızca bir kadroya başvurulabilir"
+   ],
+   "kpssSart": "var",
+   "kurum": "Bergama Belediyesi",
+   "kurumBilgi": "İzmir'in kuzeyindeki Bergama ilçesinin belediyesi.",
+   "minPuan": 80,
+   "ozet": "Bergama Belediyesi 2026 KPSS P3 ile 2 memur ve 2 evlendirme memuru alacak. Memur için Ekonomi/İktisat/Maliye, evlendirme memuru için Uluslararası İlişkiler/Maliye/Halkla İlişkiler mezunları başvurabiliyor; asgari puan 80.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Sözlü sınav 21 Aralık 2026 10.00, belediye binası; sınava çağrılanlar 16 Aralık'ta duyurulur. Atama puanı sözlü ile KPSS ortalaması.",
+   "sonTarih": "2026-12-11",
+   "sozlesme": "kadro",
+   "tur": "belediye",
+   "yasUst": null,
+   "ybs": "yok",
+   "ydsMin": null
+  },
+  {
+   "id": "dika-uzman",
+   "aGrubu": true,
+   "adimlar": [
+    "Resmi ilan metnini dika.org.tr'den indir ve bölüm/puan türü tablosunu kontrol et",
+    "4–18 Aralık arasında Kariyer Kapısı üzerinden tek bir gruba başvur",
+    "30 Aralık'ta açıklanacak sözlü sınav listesini takip et",
+    "Mardin'deki DİKA merkezinde sözlü sınava gir (en az 70 puan)"
+   ],
+   "basTarih": "2026-12-04",
+   "basvuruUrl": "https://www.kariyerkapisi.gov.tr",
+   "belgeler": [
+    "KPSS sonuç belgesi (ilgili puan türü)",
+    "YDS/e-YDS veya denk sınav belgesi",
+    "Diploma/mezuniyet belgesi",
+    "Varsa yüksek lisans/doktora ve ikinci yabancı dil belgeleri"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-15T08:45:00+03:00",
+   "il": "Mardin (Batman, Siirt, Şırnak'ta görevlendirme)",
+   "kadro": "Uzman personel (İktisadi/idari, hukuk/Uİ ve istatistik/mühendislik grupları)",
+   "kategori": [],
+   "kaynak": "https://www.artisiirt.com/dika-dan-siirt-i-de-kapsayan-personel-alimi-4-uzman-alinacak/53604",
+   "kontenjan": "4",
+   "kontrol": [
+    "YBS bölüm listesinde yok; iktisat/işletme/maliye/kamu yönetimi grupları A grubu (P14–P31) istiyor",
+    "P1–P3 yalnızca istatistik/matematik grubuna ait; mühendislik bölümlerinin puan türleri resmi ilandan kontrol edilmeli",
+    "YDS 70 zorunlu"
+   ],
+   "kpssSart": "var",
+   "kurum": "Dicle Kalkınma Ajansı (DİKA)",
+   "kurumBilgi": "DİKA, Mardin, Batman, Siirt ve Şırnak'ı kapsayan TRC3 bölgesinin kalkınma ajansıdır. Personel belirsiz süreli iş sözleşmesiyle, 2 ay deneme süresiyle çalışır.",
+   "minPuan": 80,
+   "ozet": "DİKA, 14 Kasım 2026 Resmî Gazete ilanıyla Mardin, Batman, Siirt ve Şırnak'ta çalışacak 4 uzman personel alıyor. İlgili puan türünde en az 80 KPSS ve en az 70 YDS isteniyor; YBS bölüm listesinde yer almıyor.",
+   "puanTurleri": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Ön değerlendirme: KPSS %55, YDS %35, lisansüstü ve ikinci dil puanları; her gruptan kontenjanın 5 katı aday sözlü sınava çağrılır, başarı için en az 70.",
+   "sonTarih": "2026-12-18",
+   "sozlesme": "is-sozlesmesi",
+   "tur": "ajans",
+   "yasUst": null,
+   "ybs": "yok",
+   "ydsArti": "YDS/e-YDS en az 70 (son 5 yıl) veya ÖSYM denkliği; YÖKDİL kabul edilmez",
+   "ydsMin": 70
   },
   {
    "aGrubu": false,
@@ -172,6 +668,53 @@
    "id": "gop-zabita"
   },
   {
+   "id": "gundogmus-memur",
+   "aGrubu": false,
+   "adimlar": [
+    "Belediye sitesinden ilan görselini/tablosunu inceleyip memur kadrosunun bölüm şartını kontrol et",
+    "21 Aralık 2026 – 5 Ocak 2027 arasında e-posta, şahsen veya iadeli taahhütlü postayla başvur",
+    "11 Ocak'ta ilan edilecek sözlü sınav listesini takip et"
+   ],
+   "basTarih": "2026-12-21",
+   "basvuruUrl": "https://www.gundogmus.bel.tr",
+   "belgeler": [
+    "Başvuru formu",
+    "Diploma",
+    "KPSS sonuç belgesi",
+    "Sürücü belgesi (B)"
+   ],
+   "boy": false,
+   "cvEslesme": "Excel ve veri tabanı becerileri büro/kayıt işlerinde işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": true,
+   "eklenme": "2026-11-07T08:46:00+03:00",
+   "il": "Antalya (Gündoğmuş)",
+   "kadro": "Memur (ayrıca mühendis, mimar, muhasebeci)",
+   "kategori": [],
+   "kaynak": "https://ilan.memurlar.net/ilan/86900/antalya-gundogmus-belediyesi-4-memur-alacak.html",
+   "kontenjan": "4 kişi (1 memur)",
+   "kontrol": [
+    "Memur kadrosunun kabul ettiği bölümler ve puan türü ilan görselindeki tabloda; haber metninde yok, teyit et",
+    "Haber başlığında son gün 19 Kasım yazıyor, ilan metninde 05.01.2027; ilan metnini esas al"
+   ],
+   "kpssSart": "var",
+   "kurum": "Gündoğmuş Belediyesi",
+   "kurumBilgi": "Antalya'nın Gündoğmuş ilçesinin belediyesidir.",
+   "minPuan": 60,
+   "ozet": "Gündoğmuş Belediyesi 657'ye tabi 4 kadroya (1'i memur) 2026 KPSS (B) en az 60 puanla lisans mezunu alacak. B sınıfı ehliyet şartı var; seçim sözlü sınavla yapılır.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Sözlü sınav, 21 Ocak 2027 10:00, belediye toplantı odası",
+   "sonTarih": "2027-01-05",
+   "sozlesme": "kadro",
+   "tur": "belediye",
+   "yasUst": null,
+   "ybs": "kontrol",
+   "ydsMin": null
+  },
+  {
    "aGrubu": false,
    "adimlar": [
     "ais.anadolu.edu.tr üzerinden başvuru ve ücret ödemesi",
@@ -209,6 +752,157 @@
    "ybs": "kabul",
    "ydsMin": null,
    "id": "halkbank-uy-2026"
+  },
+  {
+   "id": "hmb-hazine-kontrolor",
+   "aGrubu": true,
+   "adimlar": [
+    "Resmî Gazete'deki ilan metnini oku, puan türü ve fakülte şartlarını kontrol et",
+    "23 Kasım–4 Aralık arasında e-Devlet / Kariyer Kapısı üzerinden başvur",
+    "20 Aralık'taki yazılı sınava hazırlan (Ankara)"
+   ],
+   "basTarih": "2026-11-23",
+   "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma veya mezuniyet belgesi (PDF)",
+    "KPSS sonuç belgesi (PDF)",
+    "Son 6 ayda çekilmiş fotoğraf",
+    "El yazısıyla özgeçmiş (taranmış)"
+   ],
+   "boy": false,
+   "cvEslesme": "SQL ve Excel ile veri analizi, denetimde mali verilerin incelenmesi ve raporlanmasında işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-13T09:05:00+03:00",
+   "il": "Ankara",
+   "kadro": "Stajyer hazine kontrolörü",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/86965/hazine-ve-maliye-bakanligi-10-stajyer-hazine-kontroloru-alacak.html",
+   "kontenjan": "En fazla 10 kişi",
+   "kontrol": [
+    "KPSS P17, P18, P22, P23, P28, P47 veya P48'den (A grubu) en az 80 isteniyor",
+    "İktisadi ve idari bilimler fakülteleri kabul ediliyor; YBS'nin İİSBF kapsamında sayıldığını asıl ilandan doğrula",
+    "1 Ocak 1991 ve sonrası doğumlu olma şartı"
+   ],
+   "kpssSart": "var",
+   "kurum": "Hazine ve Maliye Bakanlığı · Hazine Kontrolörleri Kurulu",
+   "kurumBilgi": "Hazine Kontrolörleri Kurulu, Hazine ve Maliye Bakanlığı adına kamu finansmanı, hazine yardımları ve garantileri gibi alanlarda denetim yapan kuruldur.",
+   "minPuan": 80,
+   "ozet": "Resmî Gazete'de 13 Kasım 2026'da yayımlanan ilanla en fazla 10 stajyer hazine kontrolörü alınacak; hukuk, iktisat, siyasal bilgiler, işletme ve iktisadi ve idari bilimler fakülteleri mezunları başvurabiliyor. 2025/2026 KPSS A grubu puan türlerinden en az 80 gerekiyor; yazılı ve sözlü sınav var.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yazılı sınav 20 Aralık 2026, Ankara (iki oturum); ardından sözlü sınav. Nihai puan KPSS, yazılı ve sözlü ortalaması.",
+   "sonTarih": "2026-12-04",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "iibf",
+   "ydsMin": null
+  },
+  {
+   "id": "icisleri-kaymakam-adayi",
+   "aGrubu": true,
+   "adimlar": [
+    "Bölüm uygunluğunu ve %80 müfredat şartını kontrol et",
+    "1-7 Aralık 2026'da ais.osym.gov.tr üzerinden ön başvuru yap ve ücreti 8 Aralık'a kadar öde",
+    "Ön başvuru sonucunda ilk 1.200 içindeysen 16-21 Aralık'ta nihai başvuru yap",
+    "31 Ocak 2027'deki yazılı sınava gir"
+   ],
+   "basTarih": "2026-12-01",
+   "basvuruUrl": "https://ais.osym.gov.tr",
+   "belgeler": [
+    "Ön başvuru ÖSYM sistemi üzerinden",
+    "Gerekirse YÖK eşdeğerlik belgesi",
+    "Sınav giriş belgesi ve kimlik"
+   ],
+   "boy": false,
+   "cvEslesme": "Kulüp yönetimi ve etkinlik organizasyonu deneyimi yönetim görevine hazırlıkta işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-19T08:45:05+03:00",
+   "il": "Ankara",
+   "kadro": "Kaymakam adayı",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/87027/icisleri-bakanligi-60-kaymakam-adayi-alacak.html",
+   "kontenjan": "60",
+   "kontrol": [
+    "KPSS P32'den en az 70 isteniyor (A grubu); adayın A grubu puanı yok",
+    "YBS ve İİBF/İİSBF listede yok; yalnızca listelenen bölümlerin müfredatıyla en az %80 uyum varsa YÖK eşdeğerlik belgesiyle başvurulabilir",
+    "1-7 Aralık ön başvuru ÖSYM üzerinden (170 TL); nihai başvuru 16-21 Aralık (sınav ücreti 2.500 TL)",
+    "1 Ocak 2027 itibarıyla 35 yaşını doldurmamış olmak; erkekler için askerlik ilişiği olmamalı"
+   ],
+   "kpssSart": "var",
+   "kurum": "İçişleri Bakanlığı",
+   "kurumBilgi": "İçişleri Bakanlığı mülki idareyi, valilik ve kaymakamlıkları yönetir. Kaymakam adayları eğitimden sonra ilçelerde mülki idare amiri olarak görev yapar.",
+   "minPuan": 70,
+   "ozet": "İçişleri Bakanlığı, 60 kaymakam adayını ÖSYM'nin yapacağı yazılı sınav ve mülakatla alacak. KPSS P32'den en az 70 ve kamu yönetimi, iktisat, işletme, maliye, hukuk gibi belirli bölümlerden mezuniyet gerekiyor.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yazılı sınav 31 Ocak 2027, Ankara; 120 soru (genel yetenek-genel kültür 38, alan bilgisi 82), 165 dakika; en yüksek puanlı 240 aday mülakata çağrılır.",
+   "sonTarih": "2026-12-07",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "yok",
+   "ydsMin": null
+  },
+  {
+   "id": "icisleri-sozlesmeli-2026",
+   "aGrubu": false,
+   "adimlar": [
+    "icisleri.gov.tr Duyurular bölümünden resmi ilanı ve Ek-1 tablolarını indir",
+    "Lisans büro personeli/çağrı merkezi bölüm listesinde YBS veya İİBF bölümlerini kontrol et",
+    "7 Aralık–11 Aralık 16.00 arasında e-Devlet 'İçişleri Bakanlığı Aday Profil Bilgileri Düzenleme ve Sınav Başvuru' ekranından başvur, en fazla 30 tercih yap",
+    "Belgeleri PDF/JPEG olarak sisteme yükle",
+    "Kadronun 4 katı aday sözlü sınava çağrılır; listeyi icisleri.gov.tr'den takip et"
+   ],
+   "basTarih": "2026-12-07",
+   "basvuruUrl": "https://www.turkiye.gov.tr",
+   "belgeler": [
+    "Diploma/mezuniyet belgesi",
+    "2026 KPSS P3 sonuç belgesi",
+    "Askerlik durum bilgisi (erkek)",
+    "Pozisyona göre YDS belgesi (programcı)"
+   ],
+   "boy": false,
+   "cvEslesme": "Excel, veri analizi ve raporlama becerileri büro personeli görevlerinde işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-23T08:46:00+03:00",
+   "il": "Türkiye geneli (merkez Ankara + 81 il)",
+   "kadro": "Sözleşmeli personel (4/B) · büro personeli, çağrı merkezi, programcı, istatistikçi vb.",
+   "kategori": [
+    "bilisim"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/87054/icisleri-bakanligi-1170-sozlesmeli-personel-alacak.html",
+   "kontenjan": "1.170 (119 merkez, 1.051 taşra; unvan dağılımı ek tablolarda)",
+   "kontrol": [
+    "Lisans büro personeli ve çağrı karşılama listesinde 'İstatistik ve İktisadi ve İdari Bilimler Fakülte/bölümleri' geçiyor; YBS adıyla yok. İİSBF mezunu olarak uygunluğunu resmi Ek-1 tablosundan teyit et",
+    "Programcı bölüm listesinde YBS adıyla görünmüyor ve D düzeyi YDS isteniyor",
+    "En fazla 30 yer/unvan tercih edilebilir, yalnızca birinde değerlendirilirsin",
+    "Unvan başına kontenjanlar görsel tablolarda; resmi ilandan oku"
+   ],
+   "kpssSart": "var",
+   "kurum": "İçişleri Bakanlığı",
+   "kurumBilgi": "İçişleri Bakanlığı; il idaresi, emniyet, jandarma ve göç gibi alanlardan sorumlu bakanlıktır. Bu alım 657 sayılı Kanun 4/B sözleşmeli statüsündedir.",
+   "minPuan": 60,
+   "ozet": "İçişleri Bakanlığı, Resmî Gazete'de merkez ve taşra için 1.170 sözleşmeli personel ilanı yayımladı; lisans büro ve çağrı merkezi kadrolarında İİBF bölümleri listede ve KPSS P3 en az 60 isteniyor. Başvurular 7–11 Aralık'ta e-Devlet üzerinden, seçme tek aşamalı sözlü sınavla yapılacak.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Tek aşamalı sözlü sınav (100 üzerinden, 70 başarı); merkez kadroları Ankara'da, taşra kadroları 6 bölge merkezinde (Adana, Ankara, İzmir, İstanbul, Erzurum, Samsun).",
+   "sonTarih": "2026-12-11",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": null,
+   "ybs": "iibf",
+   "ydsArti": "Programcı pozisyonu için en az D (60) YDS/e-YDS veya denk belge",
+   "ydsMin": null
   },
   {
    "aGrubu": false,
@@ -434,6 +1128,52 @@
    "id": "karsiyaka-bilgisayar"
   },
   {
+   "id": "kdk-uzman-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "Resmî Gazete'deki ilan metnini oku, Grup II şartlarını kontrol et",
+    "e-Devlet / Kariyer Kapısı üzerinden 22 Kasım 23:59'a kadar başvur",
+    "Grup II'de ilk 6 aday sözlü sınava çağrılır"
+   ],
+   "basTarih": "2026-11-09",
+   "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma/mezuniyet bilgisi (e-Devlet)",
+    "KPSS sonuç bilgisi (P33/P38)"
+   ],
+   "boy": false,
+   "cvEslesme": "Veri analizi ve raporlama becerisi, şikâyet istatistikleri ve yıllık raporların hazırlanmasında işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-09T08:55:00+03:00",
+   "il": "Ankara",
+   "kadro": "Uzman yardımcısı (Grup II: siyasal bilgiler/İİBF/iktisat/işletme)",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://www.endeks24.com/kamu-denetciligi-kurumu-10-uzman-yardimcisi-alacak-basvurular-basladi",
+   "kontenjan": "10 kişi (Grup I hukuk 7, Grup II 3)",
+   "kontrol": [
+    "Grup II için KPSS P33 veya P38 (A grubu) en az 80 isteniyor",
+    "YBS bölümünün İİSBF kapsamında kabul edilip edilmediğini Resmî Gazete'deki asıl ilandan doğrula",
+    "1 Ocak 1991 ve sonrası doğumlu olma şartı"
+   ],
+   "kpssSart": "var",
+   "kurum": "Kamu Denetçiliği Kurumu (Ombudsmanlık)",
+   "kurumBilgi": "Kamu Denetçiliği Kurumu, idarenin işleyişiyle ilgili şikâyetleri inceleyen, TBMM Başkanlığına bağlı bağımsız ombudsmanlık kurumudur.",
+   "minPuan": 80,
+   "ozet": "Resmî Gazete'de 9 Kasım 2026'da yayımlanan ilanla 10 uzman yardımcısı alınacak; Grup II siyasal bilgiler, iktisadi ve idari bilimler, iktisat ve işletme fakültelerine açık. 2025/2026 KPSS P33/P38'den en az 80 puan ve yalnızca sözlü sınav var.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yalnızca sözlü sınav; başarı için en az 70 puan.",
+   "sonTarih": "2026-11-22",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "iibf",
+   "ydsMin": null
+  },
+  {
    "aGrubu": true,
    "basTarih": "2026-11-09",
    "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
@@ -504,6 +1244,114 @@
    "ybs": "kontrol",
    "ydsMin": null,
    "id": "kpss-2026-2"
+  },
+  {
+   "id": "mudurnu-sozlesmeli",
+   "aGrubu": false,
+   "adimlar": [
+    "memurlar.net sayfasındaki ilan görselinden ve belediye sitesinden kadro tablosunu (öğrenim, bölüm, puan türü) kontrol et",
+    "Uygunsa 14–25 Aralık arasında e-posta, şahsen veya iadeli posta ile Yazı İşleri Müdürlüğüne başvur",
+    "Sınava çağrı listesini belediye sitesinden takip et"
+   ],
+   "basTarih": "2026-12-14",
+   "basvuruUrl": "https://www.mudurnu.bel.tr",
+   "belgeler": [
+    "Başvuru formu",
+    "Diploma veya mezuniyet belgesi",
+    "2026 KPSS sonuç belgesi",
+    "B sınıfı sürücü belgesi",
+    "Fotoğraf",
+    "2 biyometrik fotoğraf"
+   ],
+   "boy": false,
+   "cvEslesme": "Veri analizi ve dashboard deneyimin belediyede raporlama işlerinde öne çıkar.",
+   "deneyimYil": 0,
+   "ehliyetB": true,
+   "eklenme": "2026-11-23T18:32:00+03:00",
+   "il": "Bolu Mudurnu",
+   "kadro": "Tam zamanlı sözleşmeli personel (5393 s. Kanun md. 49)",
+   "kategori": [],
+   "kaynak": "https://ilan.memurlar.net/ilan/87022/bolu-mudurnu-belediyesi-1-sozlesmeli-personel-alacak.html",
+   "kontenjan": "1 kişi",
+   "kontrol": [
+    "Unvan, bölüm ve taban puan ilan görselinde; metinden okunamadı (lisans P3 olduğu ilan takvimi sitesinde yazıyor)",
+    "B sınıfı ehliyet şartı var"
+   ],
+   "kpssSart": "var",
+   "kurum": "Mudurnu Belediyesi",
+   "kurumBilgi": "Bolu'nun turistik ilçesi Mudurnu'nun belediyesi; sözleşmeli personel memur kadrosu değildir.",
+   "minPuan": null,
+   "ozet": "Mudurnu Belediyesi lisans mezunu 1 tam zamanlı sözleşmeli personel alacak; başvurular 14–25 Aralık arasında. Unvan ve bölüm şartı ilan görselinde, başvurmadan kontrol et.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Yazılı sınav 15 Ocak 2027 15.00, belediye toplantı salonu; çağrı listesi 8 Ocak. Atama puanı yazılı ile KPSS ortalaması.",
+   "sonTarih": "2026-12-25",
+   "sozlesme": "sozlesmeli",
+   "tur": "belediye",
+   "yasUst": null,
+   "ybs": "kontrol",
+   "ydsMin": null
+  },
+  {
+   "id": "myk-uzman-yrd",
+   "aGrubu": false,
+   "adimlar": [
+    "İŞKUR e-Şube'ye İş Arayan olarak gir",
+    "Bilişim grubu ilanını (İŞKUR no 00009887324) bul ve başvur",
+    "Ön listeye kalırsan MYK'nın istediği belgeleri hazırla",
+    "Sözlü sınav duyurusunu myk.gov.tr'den takip et"
+   ],
+   "basTarih": "2026-11-09",
+   "basvuruUrl": "https://esube.iskur.gov.tr",
+   "belgeler": [
+    "İş talep dilekçesi",
+    "Aday bilgi formu",
+    "Bir sayfalık el yazısı özgeçmiş",
+    "KPSS ve YDS/e-YDS sonuç belgeleri",
+    "e-Devlet mezuniyet belgesi",
+    "2 vesikalık fotoğraf",
+    "İstenirse sertifika/transkript"
+   ],
+   "boy": false,
+   "cvEslesme": "Python, SQL ve veri tabanı tasarımı deneyimi bilişim grubundaki yazılım geliştirme beklentisine uyuyor; C# ise ayrıca gerekebilir.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-10T08:46:00+03:00",
+   "il": "Ankara",
+   "kadro": "Uzman yardımcısı (1 bilişim grubu: YBS dahil · 4 iktisadi/idari grup)",
+   "kategori": [
+    "uzman-yrd",
+    "bilisim"
+   ],
+   "kaynak": "https://www.isinolsa.com/myk-5-uzman-yardimcisi-alacak-60-kpss-puan-basvurular-basladi/",
+   "kontenjan": "5 (1 bilişim + 4 iktisadi/idari)",
+   "kontrol": [
+    "Bilişim grubu (1 kişi) P3 en az 60; YBS listede",
+    "YDS/e-YDS en az 70 zorunlu (adayda YDS yok)",
+    "En az iki yazılım dili bilgisi; C# tercih",
+    "İktisadi/idari grup (4 kişi) A grubu puan istiyor ve YBS'yi kabul etmiyor",
+    "Yalnızca bir ilana başvurulabilir",
+    "Yaş: 35'i doldurmamış (doğum tarihi aralığını İŞKUR'da kontrol et)"
+   ],
+   "kpssSart": "var",
+   "kurum": "Mesleki Yeterlilik Kurumu (MYK)",
+   "kurumBilgi": "MYK, ulusal meslek standartları ve yeterliliklerini belirleyip mesleki belgelendirme sistemini yöneten, Çalışma ve Sosyal Güvenlik Bakanlığı ilişkili kurumdur.",
+   "minPuan": 60,
+   "ozet": "MYK, İŞKUR üzerinden 4857 sayılı Kanuna tabi 5 uzman yardımcısı alıyor; 1 kişilik bilişim grubunda Yönetim Bilişim Sistemleri açıkça sayılıyor ve KPSS P3 en az 60 isteniyor. Ancak YDS/e-YDS en az 70 şartı var, bu nedenle YDS'siz aday başvuramaz.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "İŞKUR KPSS puanına göre kontenjanın 5 katını sıralar; MYK'da belge kontrolü ve sözlü sınav (en az 70 ortalama). Tarih MYK sitesinde duyurulacak.",
+   "sonTarih": "2026-11-13",
+   "sozlesme": "is-sozlesmesi",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "kabul",
+   "ydsArti": "YDS/e-YDS en az 70, son 3 yıl içinde",
+   "ydsMin": 70
   },
   {
    "aGrubu": false,
@@ -685,6 +1533,394 @@
    "id": "oran-buro"
   },
   {
+   "id": "peras-denizli-buro",
+   "aGrubu": false,
+   "adimlar": [
+    "Resmi ilan PDF'ini İŞKUR sitesinden oku",
+    "CV'yi hazırla",
+    "CV'yi 21 Kasım 2026'ya kadar şirketin ilandaki başvuru e-posta adresine gönder",
+    "Mülakat çağrısını bekle"
+   ],
+   "basTarih": "2026-11-19",
+   "basvuruUrl": "https://www.iskur.gov.tr/medya/ukcnggdj/pera%C5%9F-denizli-bueyuek%C5%9Fehir-belediyesi-tica%C5%9F-21112026.pdf",
+   "belgeler": [
+    "Özgeçmiş (CV)",
+    "Diğer belgeler resmi PDF'te"
+   ],
+   "boy": false,
+   "cvEslesme": "Excel ve veri analizi becerisi büro işlerinde (kayıt, raporlama) işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-21T08:58:00+03:00",
+   "il": "Denizli",
+   "kadro": "Büro personeli (daimi işçi, lisans)",
+   "kategori": [],
+   "kaynak": "https://www.kamuilantakvimi.com/ilanlar/peras-denizli-buyuksehir-belediyesi-3-daimi-personel-alimi",
+   "kontenjan": "1 büro personeli (toplam 3 kişilik alım)",
+   "kontrol": [
+    "Denizli'de ikamet şartı var",
+    "Son başvuru 21 Kasım 2026 (bugün)",
+    "Belge listesi için resmi PDF'e bak"
+   ],
+   "kpssSart": "yok",
+   "kurum": "PERAŞ (Denizli Büyükşehir Belediyesi şirketi)",
+   "kurumBilgi": "PERAŞ, Denizli Büyükşehir Belediyesi'ne bağlı hizmet şirketidir. Alım İŞKUR üzerinden duyurulan daimi işçi alımıdır.",
+   "minPuan": null,
+   "ozet": "Denizli Büyükşehir Belediyesi şirketi PERAŞ, en az lisans mezunu 1 büro personeli alıyor; bölüm ve KPSS şartı yok. Başvuru yalnızca e-posta ile CV gönderilerek yapılıyor ve Denizli'de ikamet şartı aranıyor.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "CV değerlendirmesi ardından mülakat; tarih belirtilmemiş",
+   "sonTarih": "2026-11-21",
+   "sozlesme": "is-sozlesmesi",
+   "tur": "belediye",
+   "yasUst": null,
+   "ybs": "herhangi",
+   "ydsMin": null
+  },
+  {
+   "id": "sahil-guvenlik-memur",
+   "aGrubu": false,
+   "adimlar": [
+    "www.sg.gov.tr'den 2026 bilgilendirme kılavuzunu indir, mali işler/tedarik uzmanı bölüm şartlarını kontrol et",
+    "16–27 Kasım arasında e-Devlet üzerinden başvur"
+   ],
+   "basTarih": "2026-11-16",
+   "basvuruUrl": "https://www.turkiye.gov.tr/sahil-guvenlik-komutanligi-is-basvurusu",
+   "belgeler": [
+    "e-Devlet şifresi",
+    "KPSS sonuç bilgisi",
+    "Diploma bilgisi"
+   ],
+   "boy": false,
+   "cvEslesme": "Excel ve veri analizi becerisi, mali işler ve tedarik süreçlerinin takibi ve raporlanmasında işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-13T09:05:00+03:00",
+   "il": "Ankara (merkez) / taşra",
+   "kadro": "Devlet memuru (mali işler uzmanı, tedarik uzmanı, psikolog vb.)",
+   "kategori": [],
+   "kaynak": "https://ilan.memurlar.net/ilan/86969/sahil-guvenlik-komutanligi-10-memur-alacak.html",
+   "kontenjan": "10 kişi (kadro dağılımı kılavuzda)",
+   "kontrol": [
+    "Bölüm şartları ve asgari puan www.sg.gov.tr'deki bilgilendirme kılavuzunda; mali işler uzmanı ve tedarik uzmanı kadrolarının YBS/İİBF kabul edip etmediğine bak",
+    "1 Ocak 1991 ve sonrası doğumlu olma şartı",
+    "Daha önce 657'ye tabi çalışmamış olmak (97. madde süresi tamamlanmadıysa)"
+   ],
+   "kpssSart": "var",
+   "kurum": "Sahil Güvenlik Komutanlığı",
+   "kurumBilgi": "Sahil Güvenlik Komutanlığı, İçişleri Bakanlığına bağlı olarak denizlerde güvenlik ve arama-kurtarma görevlerini yürüten kolluk kuvvetidir.",
+   "minPuan": null,
+   "ozet": "Sahil Güvenlik Komutanlığı 2026 KPSS ile 10 devlet memuru alacak; mali işler uzmanı, psikolog, İngilizce öğretmeni ve tedarik uzmanı için KPSSP3 isteniyor. Bölüm ve asgari puan şartları kılavuzda yer alıyor.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Ayrı sınav belirtilmemiş; 2026 KPSS P3 puanı esas alınıyor (ayrıntı kılavuzda).",
+   "sonTarih": "2026-11-27",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 36,
+   "ybs": "kontrol",
+   "ydsMin": null
+  },
+  {
+   "id": "sayistay-bilisim",
+   "aGrubu": false,
+   "adimlar": [
+    "İlan metnindeki bölüm listesini ve pozisyon şartlarını kontrol et",
+    "Geçerli YDS/e-YDS (en az 60) veya denk dil belgesini hazırla",
+    "11–25 Kasım arasında e-Devlet > Sayıştay Başkanlığı Kariyer Kapısı Kamu İşe Alım üzerinden tek pozisyona başvur",
+    "KPSS sıralamasıyla kadronun 10 katı aday sözlü sınava çağrılır; listeyi sayistay.gov.tr'den takip et"
+   ],
+   "basTarih": "2026-11-11",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma/mezuniyet bilgisi (e-Devlet)",
+    "2026 KPSS P1 sonucu",
+    "YDS/e-YDS veya denk dil belgesi"
+   ],
+   "boy": false,
+   "cvEslesme": "SQL, veri tabanı tasarımı ve Python ile yazılım geliştirme deneyimi programcı/çözümleyici görevlerinde doğrudan işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-11T09:00:00+03:00",
+   "il": "Ankara",
+   "kadro": "Sözleşmeli çözümleyici · programcı (lisans)",
+   "kategori": [
+    "bilisim"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/86940/sayistay-16-sozlesmeli-personel-alacak.html",
+   "kontenjan": "12 (3 çözümleyici, 9 programcı lisans; ayrıca 4 ön lisans programcı)",
+   "kontrol": [
+    "YDS en az D (60) veya denk belge şartı var",
+    "Yalnızca bir pozisyona başvurulabilir",
+    "Çözümleyici için .Net/Java web geliştirme deneyimi tercih sebebi"
+   ],
+   "kpssSart": "var",
+   "kurum": "Sayıştay Başkanlığı",
+   "kurumBilgi": "Sayıştay, kamu idarelerinin hesap ve işlemlerini TBMM adına denetleyen anayasal denetim kurumudur.",
+   "minPuan": 60,
+   "ozet": "Sayıştay, Resmî Gazete'de 16 sözleşmeli bilişim personeli ilanı yayımladı; lisans düzeyindeki çözümleyici ve programcı pozisyonlarında Yönetim Bilişim Sistemleri bölüm listesinde. KPSS P1 en az 60 ve YDS en az D düzeyi isteniyor, zorunlu deneyim şartı yok.",
+   "puanTurleri": [
+    "P1"
+   ],
+   "sertifika": false,
+   "sinav": "KPSS P1 sıralamasıyla kadronun 10 katı aday sözlü sınava çağrılır; sözlü sınavda 70 ve üzeri başarılı.",
+   "sonTarih": "2026-11-25",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": null,
+   "ybs": "kabul",
+   "ydsArti": "YDS en az D düzeyi veya denkliği kabul edilen uluslararası belge (tüm pozisyonlar)",
+   "ydsMin": 60
+  },
+  {
+   "id": "sgk-denetmen-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "9–22 Kasım arasında e-Devlet üzerinden SGK Kariyer Kapısı Kamu İşe Alım hizmetinden başvur",
+    "Sözlü sınava çağrı listesini SGK sitesinden takip et",
+    "28 Aralık 2026 – 11 Ocak 2027 arasındaki sözlü sınava hazırlan"
+   ],
+   "basTarih": "2026-11-09",
+   "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "e-Devlet şifresi",
+    "Diploma bilgisi (e-Devlet'ten otomatik)",
+    "KPSS sonuç bilgisi"
+   ],
+   "boy": false,
+   "cvEslesme": "Veri analizi ve Excel/SQL becerileri denetim raporlamasında işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-07T08:46:00+03:00",
+   "il": "Türkiye geneli (taşra)",
+   "kadro": "Sosyal güvenlik denetmen yardımcısı",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://www.isinolsa.com/sgk-100-memur-denetmen-yardimcisi-alimi-yapacak/",
+   "kontenjan": "100 kişi (taşra teşkilatı)",
+   "kontrol": [
+    "A grubu (P39–P48) puanı gerekli; P1/P2/P3 kabul edilmiyor",
+    "Resmi ilan metnini SGK sitesi veya Kariyer Kapısı'ndan teyit et"
+   ],
+   "kpssSart": "var",
+   "kurum": "Sosyal Güvenlik Kurumu (SGK)",
+   "kurumBilgi": "SGK, sosyal sigorta ve genel sağlık sigortası sistemini yöneten kamu kurumudur. Denetmen yardımcıları işyeri ve sigortalılık denetimlerinde görev alır.",
+   "minPuan": 70,
+   "ozet": "SGK taşra teşkilatına 100 sosyal güvenlik denetmen yardımcısı alacak; hukuk, siyasal bilgiler, iktisadi ve idari bilimler, iktisat, işletme mezunları başvurabilir. Seçim yalnızca sözlü sınavla yapılır; KPSS sıralamasında ilk 400 aday sözlüye çağrılır.",
+   "puanTurleri": [
+    "P39",
+    "P40",
+    "P41",
+    "P42",
+    "P43",
+    "P48"
+   ],
+   "sertifika": false,
+   "sinav": "Tek aşamalı sözlü sınav, 28 Aralık 2026 – 11 Ocak 2027, SGK Sıhhiye/Ankara",
+   "sonTarih": "2026-11-22",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "iibf",
+   "ydsMin": null
+  },
+  {
+   "id": "sgk-mufettis-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "Resmi ilanı sgk.gov.tr'den oku, bölüm listesini kontrol et",
+    "7–18 Aralık 2026 arasında e-Devlet Kariyer Kapısı üzerinden elektronik başvuru yap",
+    "Sınava çağrılanlar listesini ve sınav giriş belgesini kontrol et",
+    "16–17 Ocak 2027'de Ankara'daki yazılı sınava gir"
+   ],
+   "basTarih": "2026-12-07",
+   "basvuruUrl": "https://isealimkariyerkapisi.cbiko.gov.tr",
+   "belgeler": [
+    "Başvuru elektronik; KPSS puanı ÖSYM'den otomatik çekilir",
+    "Sınav giriş belgesi ve geçerli kimlik belgesi",
+    "Sözlü sınav belgeleri sonra duyurulacak"
+   ],
+   "boy": false,
+   "cvEslesme": "Veri analizi ve Excel/SQL becerisi denetimde kayıt ve prim verilerini incelemede işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-19T08:45:05+03:00",
+   "il": "Ankara",
+   "kadro": "Müfettiş yardımcısı",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/87026/sgk-50-mufettis-yardimcisi-alacak.html",
+   "kontenjan": "50",
+   "kontrol": [
+    "KPSS P43 veya P48'den en az 80 isteniyor (A grubu); adayın A grubu puanı yok",
+    "Kabul listesinde 'iktisadi ve idari bilimler fakülteleri' var; YBS ve İİSBF adı ayrıca geçmiyor, kuruma teyit ettir",
+    "Puan sırasına göre ilk 250 aday yazılı sınava çağrılır",
+    "1 Ocak 2027 itibarıyla 35 yaşını doldurmamış olmak"
+   ],
+   "kpssSart": "var",
+   "kurum": "Sosyal Güvenlik Kurumu (SGK)",
+   "kurumBilgi": "SGK, Türkiye'nin sosyal sigorta ve genel sağlık sigortası sistemini yöneten kurumdur. Müfettişler kurum birimlerini ve işverenleri denetler.",
+   "minPuan": 80,
+   "ozet": "SGK, 50 müfettiş yardımcısını yazılı ve sözlü giriş sınavıyla alacak. Başvuru için 2025 veya 2026 KPSS'de P43 ya da P48 puan türünden en az 80 puan gerekiyor.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yazılı sınav 16.01.2027 (iki oturum) ve 17.01.2027 (bir oturum), SGK Başkanlığı Balgat/Ankara; ardından sözlü sınav. Her konudan en az 60, ortalama en az 70.",
+   "sonTarih": "2026-12-18",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "iibf",
+   "ydsArti": "YDS şartı yok; yazılı sınavda yabancı dil (İngilizce/Fransızca/Almanca) konusu var",
+   "ydsMin": null
+  },
+  {
+   "id": "sile-zabita",
+   "aGrubu": false,
+   "adimlar": [
+    "İlan metnini ve istenen belgeleri belediye sitesinden kontrol et",
+    "9–13 Kasım arasında Şile Belediyesi Yazı İşleri Müdürlüğüne (Balibey Mah. Atatürk Cad. No:69/A) şahsen başvur",
+    "Sınava çağrı listesini takip et"
+   ],
+   "basTarih": "2026-11-09",
+   "basvuruUrl": "https://www.sile.bel.tr",
+   "belgeler": [
+    "Diploma veya mezuniyet belgesi",
+    "KPSS sonuç belgesi (P3)",
+    "Kimlik fotokopisi",
+    "Vesikalık fotoğraf"
+   ],
+   "boy": true,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-09T08:55:00+03:00",
+   "il": "İstanbul Şile",
+   "kadro": "Zabıta memuru",
+   "kategori": [],
+   "kaynak": "https://www.isinolsa.com/sile-belediyesi-6-memur-alacak-on-lisans-ve-lisans-65-kpss-ile-basvurabilecek/",
+   "kontenjan": "2 kişi",
+   "kontrol": [
+    "Boy: erkek en az 1,67 m, kadın en az 1,60 m; boy-kilo kuralı uygulanır",
+    "Sınav tarihinde 30 yaşını doldurmamış olmak",
+    "Başvuru yalnızca şahsen, Yazı İşleri Müdürlüğüne"
+   ],
+   "kpssSart": "var",
+   "kurum": "Şile Belediyesi",
+   "kurumBilgi": "Şile Belediyesi, İstanbul'un Karadeniz kıyısındaki Şile ilçesinin yerel yönetimidir.",
+   "minPuan": 65,
+   "ozet": "Şile Belediyesi herhangi bir lisans programı mezunlarından 2 zabıta memuru alacak; KPSS P3 en az 65 isteniyor. Başvurular 9–13 Kasım 2026 arasında şahsen alınıyor.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Belediye tarafından yapılacak sınav (ilan metninde belirtilen tarihte).",
+   "sonTarih": "2026-11-13",
+   "sozlesme": "kadro",
+   "tur": "belediye",
+   "yasUst": 30,
+   "ybs": "herhangi",
+   "ydsMin": null
+  },
+  {
+   "id": "ssb-sozlesmeli",
+   "aGrubu": false,
+   "adimlar": [
+    "İlandaki bölüm ve uzmanlık alanı tablosunu kontrol et",
+    "20 Kasım–21 Aralık arasında Kariyer Kapısı üzerinden başvur"
+   ],
+   "basTarih": "2026-11-20",
+   "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma",
+    "YDS sonuç belgesi",
+    "Deneyimi gösteren belgeler (SGK dökümü vb.)"
+   ],
+   "boy": false,
+   "cvEslesme": "Python, makine öğrenmesi ve veri analizi becerileri yapay zekâ/veri bilimi alanıyla örtüşüyor, ancak deneyim şartı karşılanmıyor.",
+   "deneyimYil": 5,
+   "ehliyetB": false,
+   "eklenme": "2026-11-13T09:05:00+03:00",
+   "il": "Ankara",
+   "kadro": "Proje bazlı sözleşmeli personel (yapay zekâ/veri bilimi dahil 21 uzmanlık alanı)",
+   "kategori": [
+    "bilisim"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/86963/savunma-sanayii-baskanligi-26-sozlesmeli-personel-alacak.html",
+   "kontenjan": "26 kişi",
+   "kontrol": [
+    "Kabul edilen bölümler ilandaki görselde; YBS'nin listede olup olmadığına bak",
+    "İlgili alanda en az 5 yıl deneyim şartı",
+    "YDS İngilizce en az 70 şartı"
+   ],
+   "kpssSart": "yok",
+   "kurum": "Savunma Sanayii Başkanlığı",
+   "kurumBilgi": "Savunma Sanayii Başkanlığı, Türkiye'nin savunma sanayii projelerini ve tedarik süreçlerini yöneten Cumhurbaşkanlığına bağlı kurumdur.",
+   "minPuan": null,
+   "ozet": "Savunma Sanayii Başkanlığı 3238 sayılı Kanun kapsamında 26 proje bazlı sözleşmeli personel alacak; yapay zekâ/veri bilimi gibi 21 uzmanlık alanında en az 5 yıl deneyim ve YDS 70 isteniyor. KPSS şartı yok, yalnızca sözlü sınav var.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yalnızca sözlü sınav; alan bilgisi ve deneyim 70, liyakat 30 puan; başarı için en az 70.",
+   "sonTarih": "2026-12-21",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": 65,
+   "ybs": "kontrol",
+   "ydsArti": "Son 2 yılda YDS İngilizce 70 veya eşdeğeri",
+   "ydsMin": 70
+  },
+  {
+   "id": "tanoba-memur",
+   "aGrubu": false,
+   "adimlar": [
+    "memurlar.net sayfasındaki ilan görselinden ve belediye sitesinden kadro tablosunu (öğrenim, bölüm, puan türü) kontrol et",
+    "Uygunsa 16–18 Aralık arasında e-posta, şahsen veya iadeli posta ile Yazı İşleri Müdürlüğüne başvur",
+    "Sınava çağrı listesini belediye sitesinden takip et"
+   ],
+   "basTarih": "2026-12-16",
+   "basvuruUrl": "https://www.tanoba.bel.tr",
+   "belgeler": [
+    "Başvuru formu",
+    "Diploma veya mezuniyet belgesi",
+    "2026 KPSS sonuç belgesi",
+    "B sınıfı sürücü belgesi",
+    "Fotoğraf"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": true,
+   "eklenme": "2026-11-23T18:32:00+03:00",
+   "il": "Tokat Erbaa (Tanoba beldesi)",
+   "kadro": "Memur",
+   "kategori": [],
+   "kaynak": "https://ilan.memurlar.net/ilan/86899/tokat-tanoba-belediyesi-1-memur-alacak.html",
+   "kontenjan": "1 kişi",
+   "kontrol": [
+    "Öğrenim düzeyi, bölüm ve KPSS puan türü/taban puanı ilan görselinde; metinden okunamadı (P3 varsayıldı)",
+    "B sınıfı ehliyet şartı var"
+   ],
+   "kpssSart": "var",
+   "kurum": "Tanoba Belediyesi",
+   "kurumBilgi": "Tokat Erbaa'ya bağlı bir belde belediyesi.",
+   "minPuan": null,
+   "ozet": "Tokat'taki Tanoba Belde Belediyesi 1 memur alacak; başvurular 16–18 Aralık arasında. Kadro şartları ilan görselinde, başvurmadan kontrol et.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Sözlü sınav 4 Ocak 2027 14.00, belediye binası; çağrı listesi 28 Aralık.",
+   "sonTarih": "2026-12-18",
+   "sozlesme": "kadro",
+   "tur": "belediye",
+   "yasUst": null,
+   "ybs": "kontrol",
+   "ydsMin": null
+  },
+  {
    "aGrubu": false,
    "adimlar": [
     "insankaynaklari.tcmb.gov.tr üzerinden başvuru (16 Kasım 17.30'a kadar)"
@@ -829,6 +2065,51 @@
    "id": "yok-bilisim"
   },
   {
+   "id": "yokak-uzman-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "yokak.gov.tr'deki ilanda Tablo I'i kontrol et",
+    "1–14 Aralık arasında e-Devlet / Kariyer Kapısı üzerinden başvur"
+   ],
+   "basTarih": "2026-12-01",
+   "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma veya geçici mezuniyet belgesi",
+    "Özgeçmiş"
+   ],
+   "boy": false,
+   "cvEslesme": "Veri analizi ve dashboard becerisi, kalite göstergelerinin raporlanmasında işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-13T09:05:00+03:00",
+   "il": "Ankara",
+   "kadro": "Uzman yardımcısı",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/86967/yuksekogretim-kalite-kurulu-baskanligi-5-uzman-yardimcisi-alacak.html",
+   "kontenjan": "5 kişi (iktisat 1, kamu yönetimi 1, uluslararası ilişkiler 2, iletişim 1)",
+   "kontrol": [
+    "Haberlere göre alan kodları iktisat, kamu yönetimi, uluslararası ilişkiler ve iletişim; YBS listede görünmüyor — Tablo I'i yokak.gov.tr'den doğrula",
+    "KPSS puan türleri Tablo I'de (büyük olasılıkla A grubu); en az 75",
+    "1 Ocak 1991 ve sonrası doğumlu olma şartı"
+   ],
+   "kpssSart": "var",
+   "kurum": "Yükseköğretim Kalite Kurulu Başkanlığı (YÖKAK)",
+   "kurumBilgi": "YÖKAK, yükseköğretim kurumlarının kalite güvencesi, akreditasyon ve dış değerlendirme süreçlerini yürüten kuruldur.",
+   "minPuan": 75,
+   "ozet": "YÖKAK, 2025/2026 KPSS'den en az 75 puanla 5 uzman yardımcısı alacak; kadrolar iktisat, kamu yönetimi, uluslararası ilişkiler ve iletişim alanlarına dağıtılmış. Giriş sınavı yalnızca sözlü.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yalnızca sözlü sınav; başarı için en az 70 puan.",
+   "sonTarih": "2026-12-14",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "yok",
+   "ydsMin": null
+  },
+  {
    "aGrubu": false,
    "adimlar": [
     "Kariyer Kapısı'nda 'YTB Uzman Yardımcılığı' ilanına başvur",
@@ -870,6 +2151,54 @@
    "ybs": "kabul",
    "ydsMin": 80,
    "id": "ytb-uzman-yrd"
+  },
+  {
+   "id": "ytu-bilisim",
+   "aGrubu": false,
+   "adimlar": [
+    "Kariyer Kapısı'ndan ilanı incele",
+    "1 Aralık 23.59'a kadar e-Devlet Kariyer Kapısı'ndan başvur"
+   ],
+   "basTarih": "2026-11-02",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma",
+    "Deneyim belgeleri",
+    "KPSS ve YDS sonuç belgeleri"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 3,
+   "ehliyetB": false,
+   "eklenme": "2026-11-23T18:32:00+03:00",
+   "il": "İstanbul",
+   "kadro": "Sözleşmeli bilişim personeli · bilgi güvenliği uzmanı, network uzmanı",
+   "kategori": [
+    "bilisim"
+   ],
+   "kaynak": "https://kadroatlasi.com.tr/ilan/yildiz-teknik-universitesi-2026-11-02-a1ba33",
+   "kontenjan": "2 kişi",
+   "kontrol": [
+    "Bölüm listesinde YBS yok (bilgisayar, yazılım, elektrik-elektronik, endüstri müh.; diğer mühendislik, matematik, istatistik, fizik)",
+    "En az 3 yıl bilişim deneyimi isteniyor"
+   ],
+   "kpssSart": "var",
+   "kurum": "Yıldız Teknik Üniversitesi",
+   "kurumBilgi": "İstanbul'daki köklü teknik devlet üniversitesi.",
+   "minPuan": null,
+   "ozet": "YTÜ Bilgi İşlem için 2 sözleşmeli bilişim personeli alıyor. Mühendislik ve bazı fen bölümleri ile en az 3 yıl deneyim isteniyor; YBS listede yok.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Yazılı ve/veya sözlü-uygulamalı sınav, 70 geçer; tarih yildiz.edu.tr'de duyurulacak.",
+   "sonTarih": "2026-12-01",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": null,
+   "ybs": "yok",
+   "ydsArti": "Asgari yok; YDS sıralamada %30 ağırlıklı",
+   "ydsMin": null
   },
   {
    "aGrubu": false,
