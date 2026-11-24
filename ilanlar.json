@@ -396,6 +396,7 @@
    "ydsMin": null
   },
   {
+   "id": "bddk-2026",
    "aGrubu": false,
    "adimlar": [
     "Kariyer Kapısı üzerinden başvuru (yalnızca bir alan)"
@@ -433,8 +434,7 @@
    "tur": "kurum",
    "yasUst": 35,
    "ybs": "kabul",
-   "ydsMin": null,
-   "id": "bddk-2026"
+   "ydsMin": null
   },
   {
    "id": "bergama-memur",
@@ -538,6 +538,59 @@
    "ydsMin": 70
   },
   {
+   "id": "doganyol-cozumleyici",
+   "aGrubu": false,
+   "adimlar": [
+    "İlan metnini ve kadro tablosunu belediye sitesinden kontrol et",
+    "2–4 Aralık arasında şahsen, posta veya e-posta ile başvur",
+    "11 Aralık'ta sözlü sınava çağrılanlar listesini kontrol et",
+    "16 Aralık 10:00 sözlü sınava gir"
+   ],
+   "basTarih": "2026-12-02",
+   "basvuruUrl": "https://www.doganyol.bel.tr",
+   "belgeler": [
+    "Başvuru formu",
+    "Diploma veya mezuniyet belgesi",
+    "2026 KPSS sonuç belgesi",
+    "B sınıfı sürücü belgesi",
+    "En az iki programlama dilini bildiğini gösteren belge (okul veya MEB onaylı kurs)",
+    "Fotoğraf"
+   ],
+   "boy": false,
+   "cvEslesme": "Python ve SQL bilgisi programlama dili belgesi şartını ve çözümleyici görevini karşılar.",
+   "deneyimYil": 0,
+   "ehliyetB": true,
+   "eklenme": "2026-11-24T09:01:09+03:00",
+   "il": "Malatya",
+   "kadro": "Tam zamanlı sözleşmeli çözümleyici",
+   "kategori": [
+    "bilisim"
+   ],
+   "kaynak": "https://ilan.memurlar.net/ilan/86777/malatya-doganyol-belediyesi-2-sozlesmeli-personel-alacak.html",
+   "kontenjan": "2",
+   "kontrol": [
+    "Kadro tablosu görsel; bölüm listesi (Kamu Yönetimi, Halkla İlişkiler ve Tanıtım, Yerel Yönetimler) ikincil kaynaktan, resmi ilandan doğrula",
+    "En az iki programlama dilini bildiğini belgelemek gerekiyor"
+   ],
+   "kpssSart": "var",
+   "kurum": "Doğanyol Belediyesi (Malatya)",
+   "kurumBilgi": "Malatya'ya bağlı Doğanyol ilçe belediyesi. Sözleşmeli personel 5393 sayılı Belediye Kanunu'nun 49. maddesine göre çalıştırılır.",
+   "minPuan": 55,
+   "ozet": "Doğanyol Belediyesi 5393 s. Kanun md. 49 kapsamında 2 tam zamanlı sözleşmeli çözümleyici alacak; 2026 KPSS P3 en az 55 ve B ehliyet isteniyor. Bölüm şartı Kamu Yönetimi, Halkla İlişkiler ve Tanıtım veya Yerel Yönetimler olarak aktarılıyor; YBS listede görünmüyor.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Sözlü sınav (100 puan, en az 60); KPSS ile sözlü sınav ortalamasıyla sıralama. 16 Aralık 2026, belediye toplantı salonu.",
+   "sonTarih": "2026-12-04",
+   "sozlesme": "sozlesmeli",
+   "tur": "belediye",
+   "yasUst": null,
+   "ybs": "yok",
+   "ydsMin": null
+  },
+  {
+   "id": "doka-uzman",
    "aGrubu": false,
    "basTarih": "2026-11-23",
    "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
@@ -566,10 +619,10 @@
    "tur": "ajans",
    "yasUst": null,
    "ybs": "yok",
-   "ydsMin": 70,
-   "id": "doka-uzman"
+   "ydsMin": 70
   },
   {
+   "id": "eyyubiye-zabita",
    "aGrubu": false,
    "adimlar": [
     "7–10 Aralık mesai saatlerinde şahsen başvur",
@@ -605,10 +658,10 @@
    "tur": "belediye",
    "yasUst": 30,
    "ybs": "herhangi",
-   "ydsMin": null,
-   "id": "eyyubiye-zabita"
+   "ydsMin": null
   },
   {
+   "id": "gib-guy-2026-2",
    "aGrubu": true,
    "basTarih": "2026-10-30",
    "boy": false,
@@ -636,10 +689,10 @@
    "tur": "kurum",
    "yasUst": 35,
    "ybs": "iibf",
-   "ydsMin": null,
-   "id": "gib-guy-2026-2"
+   "ydsMin": null
   },
   {
+   "id": "gop-zabita",
    "aGrubu": false,
    "basTarih": "2026-12-07",
    "boy": true,
@@ -664,8 +717,7 @@
    "tur": "belediye",
    "yasUst": 30,
    "ybs": "yok",
-   "ydsMin": null,
-   "id": "gop-zabita"
+   "ydsMin": null
   },
   {
    "id": "gundogmus-memur",
@@ -715,6 +767,7 @@
    "ydsMin": null
   },
   {
+   "id": "halkbank-uy-2026",
    "aGrubu": false,
    "adimlar": [
     "ais.anadolu.edu.tr üzerinden başvuru ve ücret ödemesi",
@@ -750,8 +803,7 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "kabul",
-   "ydsMin": null,
-   "id": "halkbank-uy-2026"
+   "ydsMin": null
   },
   {
    "id": "hmb-hazine-kontrolor",
@@ -905,6 +957,7 @@
    "ydsMin": null
   },
   {
+   "id": "iletisim-uy-2026",
    "aGrubu": false,
    "adimlar": [
     "ais.gazi.edu.tr (GAZİÖDM) üzerinden başvuru ve sınav ücreti"
@@ -935,10 +988,10 @@
    "tur": "kurum",
    "yasUst": 35,
    "ybs": "iibf",
-   "ydsMin": null,
-   "id": "iletisim-uy-2026"
+   "ydsMin": null
   },
   {
+   "id": "iskur-bilisim",
    "aGrubu": false,
    "adimlar": [
     "Kariyer Kapısı üzerinden başvuru"
@@ -970,10 +1023,10 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "yok",
-   "ydsMin": null,
-   "id": "iskur-bilisim"
+   "ydsMin": null
   },
   {
+   "id": "istka-uzman",
    "aGrubu": false,
    "adimlar": [
     "Kariyer Kapısı üzerinden başvuru"
@@ -1004,10 +1057,10 @@
    "tur": "ajans",
    "yasUst": null,
    "ybs": "kabul",
-   "ydsMin": 70,
-   "id": "istka-uzman"
+   "ydsMin": 70
   },
   {
+   "id": "izmirbb-zabita",
    "aGrubu": false,
    "basTarih": "2026-11-30",
    "boy": true,
@@ -1032,10 +1085,10 @@
    "tur": "belediye",
    "yasUst": 30,
    "ybs": "yok",
-   "ydsMin": null,
-   "id": "izmirbb-zabita"
+   "ydsMin": null
   },
   {
+   "id": "jandarma-memur",
    "aGrubu": false,
    "adimlar": [
     "Jandarma ve Sahil Güvenlik Akademisi Personel Temin Sistemi'ne e-Devlet ile gir",
@@ -1076,10 +1129,10 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "kontrol",
-   "ydsMin": null,
-   "id": "jandarma-memur"
+   "ydsMin": null
   },
   {
+   "id": "karsiyaka-bilgisayar",
    "aGrubu": false,
    "adimlar": [
     "Resmi ilan PDF'ini belediye sitesinden indir, bölüm listesini kontrol et",
@@ -1124,8 +1177,7 @@
    "tur": "belediye",
    "yasUst": null,
    "ybs": "kontrol",
-   "ydsMin": null,
-   "id": "karsiyaka-bilgisayar"
+   "ydsMin": null
   },
   {
    "id": "kdk-uzman-yrd",
@@ -1174,6 +1226,7 @@
    "ydsMin": null
   },
   {
+   "id": "kik-uzman-yrd",
    "aGrubu": true,
    "basTarih": "2026-11-09",
    "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
@@ -1200,10 +1253,10 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "iibf",
-   "ydsMin": null,
-   "id": "kik-uzman-yrd"
+   "ydsMin": null
   },
   {
+   "id": "kpss-2026-2",
    "aGrubu": false,
    "adimlar": [
     "Kılavuz yayımlanınca Tablo-1 (lisans) ve nitelik kodları tablosunu indir",
@@ -1242,8 +1295,56 @@
    "tur": "merkezi",
    "yasUst": null,
    "ybs": "kontrol",
-   "ydsMin": null,
-   "id": "kpss-2026-2"
+   "ydsMin": null
+  },
+  {
+   "id": "ktb-uzman-yrd",
+   "aGrubu": false,
+   "adimlar": [
+    "Resmî Gazete'deki ilanı oku, bölüm ve puan türü tablosunu kontrol et",
+    "9–23 Aralık arasında Kariyer Kapısı / e-Devlet üzerinden başvur",
+    "Sözlü sınava çağrı listesini takip et"
+   ],
+   "basTarih": "2026-12-09",
+   "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "e-Devlet şifresi",
+    "KPSS sonuç belgesi",
+    "Diploma bilgisi (e-Devlet'ten)"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-24T09:01:09+03:00",
+   "il": "Ankara",
+   "kadro": "Kültür ve turizm uzman yardımcısı",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://haberdijital.com.tr/24-kasim-2026-resmi-gazete-kararlari-uzman-yardimcisi-alimi/",
+   "kontenjan": "20",
+   "kontrol": [
+    "Puan türü ikincil kaynakta P3 olarak geçiyor; resmi ilanda (Resmî Gazete 24.11.2026) A grubu puan türü olup olmadığını doğrula",
+    "1 Ocak 1992 ve sonrası doğumlu olma şartı",
+    "YDS şartı haberlerde yok; resmi ilandan kontrol et"
+   ],
+   "kpssSart": "var",
+   "kurum": "Kültür ve Turizm Bakanlığı",
+   "kurumBilgi": "Kültür ve turizm politikalarını yürüten bakanlık. Uzman yardımcıları yaklaşık üç yıllık yetişme ve tez sürecinden sonra uzman olur.",
+   "minPuan": 80,
+   "ozet": "Kültür ve Turizm Bakanlığı merkez teşkilatına 20 uzman yardımcısı alacak; 2025 veya 2026 KPSS'de en az 80 puan isteniyor. Kadrolar mimarlık, şehir planlama, makine/çevre mühendisliği, iktisat/işletme, uluslararası ilişkiler, kamu yönetimi ve sanat tarihi bölümlerine ayrılmış; YBS yok.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Tek aşamalı sözlü sınav, Ankara.",
+   "sonTarih": "2026-12-23",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": null,
+   "ybs": "yok",
+   "ydsMin": null
   },
   {
    "id": "mudurnu-sozlesmeli",
@@ -1354,6 +1455,7 @@
    "ydsMin": 70
   },
   {
+   "id": "ndk-bilisim",
    "aGrubu": false,
    "adimlar": [
     "Kariyer Kapısı üzerinden başvuru"
@@ -1387,10 +1489,10 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "yok",
-   "ydsMin": null,
-   "id": "ndk-bilisim"
+   "ydsMin": null
   },
   {
+   "id": "ogm-mufettis",
    "aGrubu": true,
    "basTarih": "2026-10-26",
    "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
@@ -1417,10 +1519,10 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "yok",
-   "ydsMin": null,
-   "id": "ogm-mufettis"
+   "ydsMin": null
   },
   {
+   "id": "oka-buro",
    "aGrubu": false,
    "adimlar": [
     "e-Devlet'te 'Orta Karadeniz Kalkınma Ajansı – Kariyer Kapısı Kamu İşe Alım' hizmetine gir",
@@ -1464,10 +1566,10 @@
    "yasUst": null,
    "ybs": "kabul",
    "ydsArti": "YDS zorunlu değil; en az 50 YDS tercih sebebi",
-   "ydsMin": null,
-   "id": "oka-buro"
+   "ydsMin": null
   },
   {
+   "id": "oka-uzman",
    "aGrubu": false,
    "adimlar": [
     "Kariyer Kapısı üzerinden başvuru"
@@ -1498,10 +1600,10 @@
    "tur": "ajans",
    "yasUst": null,
    "ybs": "kabul",
-   "ydsMin": 70,
-   "id": "oka-uzman"
+   "ydsMin": 70
   },
   {
+   "id": "oran-buro",
    "aGrubu": false,
    "basTarih": "2026-11-09",
    "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
@@ -1529,8 +1631,7 @@
    "tur": "ajans",
    "yasUst": null,
    "ybs": "yok",
-   "ydsMin": null,
-   "id": "oran-buro"
+   "ydsMin": null
   },
   {
    "id": "peras-denizli-buro",
@@ -1921,6 +2022,7 @@
    "ydsMin": null
   },
   {
+   "id": "tcmb-bilisim-uy",
    "aGrubu": false,
    "adimlar": [
     "insankaynaklari.tcmb.gov.tr üzerinden başvuru (16 Kasım 17.30'a kadar)"
@@ -1954,10 +2056,10 @@
    "tur": "kurum",
    "yasUst": 35,
    "ybs": "yok",
-   "ydsMin": 70,
-   "id": "tcmb-bilisim-uy"
+   "ydsMin": 70
   },
   {
+   "id": "tga-13",
    "aGrubu": false,
    "adimlar": [
     "TGA kariyer sayfasından Ek-1 tablosunu incele",
@@ -1992,10 +2094,10 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "kontrol",
-   "ydsMin": null,
-   "id": "tga-13"
+   "ydsMin": null
   },
   {
+   "id": "vakifbank-mufettis-2026",
    "aGrubu": false,
    "basTarih": "2026-10-15",
    "boy": false,
@@ -2026,10 +2128,10 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "kontrol",
-   "ydsMin": null,
-   "id": "vakifbank-mufettis-2026"
+   "ydsMin": null
   },
   {
+   "id": "yok-bilisim",
    "aGrubu": false,
    "adimlar": [
     "Kariyer Kapısı üzerinden başvuru"
@@ -2061,8 +2163,7 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "kontrol",
-   "ydsMin": null,
-   "id": "yok-bilisim"
+   "ydsMin": null
   },
   {
    "id": "yokak-uzman-yrd",
@@ -2110,6 +2211,7 @@
    "ydsMin": null
   },
   {
+   "id": "ytb-uzman-yrd",
    "aGrubu": false,
    "adimlar": [
     "Kariyer Kapısı'nda 'YTB Uzman Yardımcılığı' ilanına başvur",
@@ -2149,8 +2251,7 @@
    "tur": "kurum",
    "yasUst": 35,
    "ybs": "kabul",
-   "ydsMin": 80,
-   "id": "ytb-uzman-yrd"
+   "ydsMin": 80
   },
   {
    "id": "ytu-bilisim",
@@ -2201,6 +2302,7 @@
    "ydsMin": null
   },
   {
+   "id": "zafer-uzman",
    "aGrubu": false,
    "basTarih": "2026-11-25",
    "basvuruUrl": "https://www.kariyerkapisi.gov.tr/isealim",
@@ -2228,8 +2330,7 @@
    "tur": "ajans",
    "yasUst": null,
    "ybs": "yok",
-   "ydsMin": 70,
-   "id": "zafer-uzman"
+   "ydsMin": 70
   }
  ]
 }
