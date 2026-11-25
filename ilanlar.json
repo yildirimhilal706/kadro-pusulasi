@@ -1679,6 +1679,58 @@
    "ydsMin": null
   },
   {
+   "id": "rekabet-uzman-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "Resmi ilanı kamuilan.sbb.gov.tr veya rekabet.gov.tr'den indir, grup ve bölüm tablosunu kontrol et",
+    "7–21 Aralık 2026 arasında e-Devlet / Kariyer Kapısı üzerinden tek bir gruba başvur",
+    "23 Ocak 2027 yazılı sınavına (İngilizce ≥70 barajı) hazırlan",
+    "Yazılıyı geçersen sözlü sınava katıl"
+   ],
+   "basTarih": "2026-12-07",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "e-Devlet üzerinden diploma/mezuniyet bilgisi",
+    "KPSS sonuç belgesi (e-Devlet'ten çekilir)",
+    "Fotoğraf",
+    "Askerlik durumu (erkek adaylar)"
+   ],
+   "boy": false,
+   "cvEslesme": "Veri analizi, SQL ve Python becerileri pazar ve birleşme analizlerinde işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-25T08:58:00+03:00",
+   "il": "Ankara",
+   "kadro": "Rekabet uzman yardımcısı (Genel 15 · İktisat 15 · Hukuk 15 · Bilişim 10)",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://www.memurjet.com/is-ilanlari/rekabet-kurumu-55-rekabet-uzman-yardimcisi-alimi",
+   "kontenjan": "55",
+   "kontrol": [
+    "İİBF kabul eden Genel grubu A grubu P19 ≥80 ister; İktisat grubu P1 ≥80 ama bölüm listesinde YBS yok (iktisat, işletme, ekonometri, istatistik vb.)",
+    "Bilişim grubu bilgisayar/yazılım/adli bilişim/yapay zekâ mühendisliği ister; puan türü P1 mi P1/P2 mi resmi ilandan teyit edilmeli",
+    "Bilgiler memurjet aktarımından; resmi ilan metni kamuilan.sbb.gov.tr'den kontrol edilmeli"
+   ],
+   "kpssSart": "var",
+   "kurum": "Rekabet Kurumu",
+   "kurumBilgi": "Rekabet Kurumu, 4054 sayılı Kanun kapsamında piyasalarda rekabeti koruyan, idari ve mali özerk bağımsız düzenleyici kurumdur.",
+   "minPuan": 80,
+   "ozet": "Rekabet Kurumu dört grupta 55 rekabet uzman yardımcısı alacak; başvurular 7–21 Aralık 2026 arasında Kariyer Kapısı üzerinden. İİBF mezunlarının girebildiği Genel grup A grubu P19 puanı, İktisat ve Bilişim grupları ise P1 ≥80 ve belirli bölümler istiyor.",
+   "puanTurleri": [
+    "P1"
+   ],
+   "sertifika": false,
+   "sinav": "Yazılı sınav 23 Ocak 2027 (Ankara; mesleki bölüm + İngilizce ≥70) ve sözlü sınav; her ikisinde en az 70, başarı ortalamaya göre",
+   "sonTarih": "2026-12-21",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "iibf",
+   "ydsArti": "YDS aranmıyor; yazılı sınavdaki İngilizce bölümünden en az 70 gerekir",
+   "ydsMin": null
+  },
+  {
    "id": "sahil-guvenlik-memur",
    "aGrubu": false,
    "adimlar": [
