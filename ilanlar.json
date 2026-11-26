@@ -280,7 +280,8 @@
    "kontenjan": "1 kişi",
    "kontrol": [
     "Öğrenim düzeyi, bölüm ve KPSS puan türü/taban puanı ilan görselinde; metinden okunamadı (P3 varsayıldı)",
-    "B sınıfı ehliyet şartı var"
+    "B sınıfı ehliyet şartı var",
+    "kamuilantakvimi.com'da Asarcık Belediyesi personel ilanı için iptal duyurusu görüldü; başvurmadan önce belediyeden doğrula"
    ],
    "kpssSart": "var",
    "kurum": "Asarcık Belediyesi",
@@ -1253,6 +1254,52 @@
    "tur": "kurum",
    "yasUst": null,
    "ybs": "iibf",
+   "ydsMin": null
+  },
+  {
+   "id": "kocaeli-isu-mufettis-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "İSU'nun resmi ilan metnini oku, bölüm ve puan şartlarını doğrula",
+    "Şartları sağlıyorsan 29 Kasım'a kadar ilandaki yöntemle başvur"
+   ],
+   "basTarih": null,
+   "basvuruUrl": "https://www.isu.gov.tr",
+   "belgeler": [
+    "Diploma",
+    "KPSS sonuç belgesi",
+    "Kimlik fotokopisi",
+    "Fotoğraf"
+   ],
+   "boy": false,
+   "cvEslesme": "Veri analizi ve Excel becerisi denetim raporlamasında işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-26T12:00:00+03:00",
+   "il": "Kocaeli",
+   "kadro": "Müfettiş yardımcısı",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://kpssvakti.com/ilanlar",
+   "kontenjan": "6",
+   "kontrol": [
+    "KPSS A grubu puan türleri isteniyor (P8, P9, P14–P18, P22, P23, P28, P33, P36, P38, P46, P48)",
+    "Bölüm listesi, başlangıç tarihi, yaş ve dil şartı ilan metninden okunamadı; resmi ilanı kontrol et"
+   ],
+   "kpssSart": "var",
+   "kurum": "Kocaeli Büyükşehir Belediyesi · İSU Genel Müdürlüğü",
+   "kurumBilgi": "İSU, Kocaeli'nin su ve kanalizasyon hizmetlerini yürüten büyükşehir bağlı kuruluşudur.",
+   "minPuan": null,
+   "ozet": "Kocaeli Büyükşehir Belediyesi'ne bağlı İSU Genel Müdürlüğü 6 müfettiş yardımcısı alacak. A grubu KPSS puanı istendiği için mevcut P1–P3 puanlarınla uygun görünmüyor.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yazılı ve sözlü giriş sınavı (ayrıntı ilan metninde)",
+   "sonTarih": "2026-11-29",
+   "sozlesme": "kadro",
+   "tur": "belediye",
+   "yasUst": null,
+   "ybs": "kontrol",
    "ydsMin": null
   },
   {
