@@ -662,6 +662,52 @@
    "ydsMin": null
   },
   {
+   "id": "gib-avukat-2026",
+   "aGrubu": false,
+   "adimlar": [
+    "2–9 Aralık 2026 17.00'ye kadar e-Devlet/Kariyer Kapısı üzerinden başvur",
+    "En fazla 5 il tercihi yap",
+    "21 Aralık 2026'da Ankara'daki sözlü sınava gir"
+   ],
+   "basTarih": "2026-12-02",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma",
+    "Avukatlık ruhsatnamesi",
+    "KPSS P3 sonucu"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-28T10:30:00+03:00",
+   "il": "Çeşitli iller (İstanbul 10)",
+   "kadro": "Sözleşmeli avukat (4/B)",
+   "kategori": [],
+   "kaynak": "https://www.memurlar.net/haber/1185438/gelir-idaresi-baskanligi-138-sozlesmeli-personel-alacak.html",
+   "kontenjan": "22",
+   "kontrol": [
+    "Yalnızca hukuk fakültesi mezunları ve avukatlık ruhsatı olanlar başvurabilir",
+    "01.01.1991 ve sonrası doğumlu olmak"
+   ],
+   "kpssSart": "var",
+   "kurum": "Gelir İdaresi Başkanlığı",
+   "kurumBilgi": "Gelir İdaresi Başkanlığı, Hazine ve Maliye Bakanlığına bağlı olarak vergi tahsilatı ve vergi idaresini yürüten kurumdur.",
+   "minPuan": 70,
+   "ozet": "Gelir İdaresi Başkanlığı, sözlü sınavla 22 sözleşmeli avukat alacak. Hukuk fakültesi mezuniyeti, avukatlık ruhsatı ve KPSS P3'ten en az 70 isteniyor.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Sözlü sınav 21.12.2026, Ankara; her il için kontenjanın 3 katı aday çağrılır.",
+   "sonTarih": "2026-12-09",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "yok",
+   "ydsMin": null
+  },
+  {
    "id": "gib-guy-2026-2",
    "aGrubu": true,
    "basTarih": "2026-10-30",
@@ -1394,6 +1440,54 @@
    "ydsMin": null
   },
   {
+   "id": "mersin-sistem-yoneticisi",
+   "aGrubu": false,
+   "adimlar": [
+    "Resmi ilanı mersin.edu.tr'den oku",
+    "10 Aralık 2026'ya kadar e-Devlet/Kariyer Kapısı üzerinden başvur"
+   ],
+   "basTarih": "2026-11-26",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma",
+    "SGK hizmet dökümü ve deneyim belgeleri",
+    "KPSS ve YDS sonuç belgesi"
+   ],
+   "boy": false,
+   "cvEslesme": "",
+   "deneyimYil": 3,
+   "ehliyetB": false,
+   "eklenme": "2026-11-28T10:30:00+03:00",
+   "il": "Mersin",
+   "kadro": "Sözleşmeli bilişim personeli · Sistem yöneticisi",
+   "kategori": [
+    "bilisim"
+   ],
+   "kaynak": "https://www.isinolsa.com/pdf-ilan/mersin-universitesi-1-sozlesmeli-sistem-yoneticisi-alim-ilani-2026/",
+   "kontenjan": "1",
+   "kontrol": [
+    "İlan metni okunamadı; tarih ve kontenjan ilan listesinden alındı",
+    "Sözleşmeli bilişim personeli yönetmeliğine göre genelde en az 3 yıl deneyim gerekir; ilandaki süreyi kontrol et",
+    "Bölüm listesini ve KPSS/YDS şartını resmi ilandan kontrol et"
+   ],
+   "kpssSart": "var",
+   "kurum": "Mersin Üniversitesi",
+   "kurumBilgi": "Mersin Üniversitesi, Mersin'de 1992'de kurulmuş bir devlet üniversitesidir.",
+   "minPuan": null,
+   "ozet": "Mersin Üniversitesi 1 sözleşmeli sistem yöneticisi alacak. Ayrıntılı şartlar okunamadı; bölüm ve deneyim şartı resmi ilandan kontrol edilmeli.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "Sözleşmeli bilişim alımlarında genelde sözlü/uygulamalı sınav yapılır; ilandan kontrol et.",
+   "sonTarih": "2026-12-10",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": null,
+   "ybs": "kontrol",
+   "ydsMin": null
+  },
+  {
    "id": "mudurnu-sozlesmeli",
    "aGrubu": false,
    "adimlar": [
@@ -1778,6 +1872,54 @@
    "ydsMin": null
   },
   {
+   "id": "saglik-mufettis-yrd",
+   "aGrubu": true,
+   "adimlar": [
+    "Resmi ilanı Sağlık Bakanlığı Teftiş Kurulu sitesinden oku",
+    "21–31 Aralık 2026 arasında e-Devlet/Kariyer Kapısı üzerinden başvur",
+    "Sözlü sınava çağrılanlar listesini kontrol et (kontenjanın 4 katı)",
+    "18 Ocak–12 Şubat 2027 arasında Ankara'daki sözlü sınava gir"
+   ],
+   "basTarih": "2026-12-21",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Başvuru elektronik; KPSS puanı otomatik çekilir",
+    "Yurt dışı mezunlar için denklik belgesi"
+   ],
+   "boy": false,
+   "cvEslesme": "Veri analizi ve Excel becerisi denetim raporlarında mali verilerin incelenmesinde işe yarar.",
+   "deneyimYil": 0,
+   "ehliyetB": false,
+   "eklenme": "2026-11-28T10:30:00+03:00",
+   "il": "Ankara",
+   "kadro": "Müfettiş yardımcısı (Grup I: iktisadi ve idari bilimler/siyasal bilgiler/iktisat/işletme · Grup II: hukuk)",
+   "kategori": [
+    "uzman-yrd"
+   ],
+   "kaynak": "https://www.isinolsa.com/saglik-bakanligi-35-mufettis-yardimcisi-alacak-kpss-puani-belli-oldu/",
+   "kontenjan": "35 (Grup I: 20, Grup II: 15)",
+   "kontrol": [
+    "Grup I için KPSS P48 en az 80, Grup II için P4 en az 80 (A grubu); adayın A grubu puanı yok",
+    "Grup I listesinde 'iktisadi ve idari bilimler' geçiyor; YBS adı ayrıca yok, kuruma teyit ettir",
+    "01.01.1992 ve sonrası doğumlu olmak",
+    "Resmi ilan metni okunamadı; bilgiler isinolsa aktarımından"
+   ],
+   "kpssSart": "var",
+   "kurum": "Sağlık Bakanlığı · Teftiş Kurulu Başkanlığı",
+   "kurumBilgi": "Sağlık Bakanlığı Teftiş Kurulu, bakanlık ve bağlı kuruluşların iş ve işlemlerini denetler, inceleme ve soruşturma yürütür.",
+   "minPuan": 80,
+   "ozet": "Sağlık Bakanlığı Teftiş Kurulu, sözlü giriş sınavıyla 35 müfettiş yardımcısı alacak. Grup I'de iktisadi ve idari bilimler mezunları için KPSS P48'den en az 80 isteniyor.",
+   "puanTurleri": [],
+   "sertifika": false,
+   "sinav": "Yalnızca sözlü sınav, Ankara (Bilkent), 18.01.2027–12.02.2027; Grup I için iktisat, maliye, muhasebe konuları. Başarı için en az 70.",
+   "sonTarih": "2026-12-31",
+   "sozlesme": "kadro",
+   "tur": "kurum",
+   "yasUst": 35,
+   "ybs": "iibf",
+   "ydsMin": null
+  },
+  {
    "id": "sahil-guvenlik-memur",
    "aGrubu": false,
    "adimlar": [
@@ -1873,6 +2015,58 @@
    "ybs": "kabul",
    "ydsArti": "YDS en az D düzeyi veya denkliği kabul edilen uluslararası belge (tüm pozisyonlar)",
    "ydsMin": 60
+  },
+  {
+   "id": "selcuk-bilisim",
+   "aGrubu": false,
+   "adimlar": [
+    "Resmi ilanı selcuk.edu.tr'den oku, bölüm ve deneyim şartını kontrol et",
+    "27 Kasım–14 Aralık 2026 arasında e-Devlet/Kariyer Kapısı üzerinden başvur",
+    "Sözlü/uygulamalı sınav listesini üniversite sitesinden takip et"
+   ],
+   "basTarih": "2026-11-27",
+   "basvuruUrl": "https://kariyerkapisi.gov.tr/isealim",
+   "belgeler": [
+    "Diploma",
+    "SGK hizmet dökümü ve deneyim belgeleri",
+    "Programlama dili belgeleri",
+    "KPSS P3 ve yabancı dil sonuç belgesi"
+   ],
+   "boy": false,
+   "cvEslesme": "Python ve SQL bilgisi iki programlama dili şartını karşılamada işe yarar.",
+   "deneyimYil": 5,
+   "ehliyetB": false,
+   "eklenme": "2026-11-28T10:30:00+03:00",
+   "il": "Konya",
+   "kadro": "Sözleşmeli bilişim personeli (375 s. KHK ek 6)",
+   "kategori": [
+    "bilisim"
+   ],
+   "kaynak": "https://www.isinolsa.com/pdf-ilan/selcuk-universitesi-2-sozlesmeli-bilisim-personeli-alim-ilani-2026/",
+   "kontenjan": "2",
+   "kontrol": [
+    "Bölüm listesi okunamadı; resmi ilandan YBS kabulünü kontrol et",
+    "En az 5 yıl mesleki deneyim isteniyor (aktarım metnine göre)",
+    "En az iki güncel programlama dili bildiğini belgelemek gerekiyor",
+    "Puan: %70 KPSS P3 + %30 yabancı dil"
+   ],
+   "kpssSart": "var",
+   "kurum": "Selçuk Üniversitesi",
+   "kurumBilgi": "Selçuk Üniversitesi, Konya'da 1975'te kurulmuş bir devlet üniversitesidir.",
+   "minPuan": null,
+   "ozet": "Selçuk Üniversitesi 2 sözleşmeli bilişim personeli alacak. Lisans mezuniyeti, en az 5 yıl deneyim ve iki programlama dili şartı bulunuyor.",
+   "puanTurleri": [
+    "P3"
+   ],
+   "sertifika": false,
+   "sinav": "KPSS ve yabancı dil puanına göre sıralama, ardından sözlü/uygulamalı sınav.",
+   "sonTarih": "2026-12-14",
+   "sozlesme": "sozlesmeli",
+   "tur": "kurum",
+   "yasUst": null,
+   "ybs": "kontrol",
+   "ydsArti": "Puanlamada %30 yabancı dil puanı",
+   "ydsMin": null
   },
   {
    "id": "sgk-denetmen-yrd",
